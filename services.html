@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> DeepDiveAnalytics</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/services.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Add Social Media icons library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Mobile properties-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+<body>
+    <!-- Menu bar-->
+    <header id="header">
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="./img/logo_img/helmet.png" alt="logo" id="logo_brand"></a>
+            </div>
+
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html"> HOME <span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> SERVICES <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Suceess stories</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+            </ul>
+            <li><a href="#contactModal" data-toggle="modal" data-target="#contactModal" class="nav-link">CONTACT</a>
+                <!-- Contact Modal -->
+                <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contact" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel"> Let's stay in touch! </h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="usr">Name:</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="First and Last name" required >
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Current email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment">Message:</label>
+                                    <textarea class="form-control" rows="5" id="comment" required></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+            </div>
+        </div>
+        </nav> 
+    </header>
+    
+    <!--  First Section -->
+    <div class="container-fluid section">
+        <div id="section-1"> 
+        <div class="stars">
+            <div class="twinkling">
+                <h1 id="section-1__header"> Our stories</h1>
+                <div class="img_story_1"> 
+                    <img src="./img/services_img_2/capital_investment_thumbnail.jpg" class="img_">
+                </div>
+                <div class="img_story_1">
+                    <img src="./img/services_img_2/inventory_thumbnail.jpg" class="img_">
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Second Section -->
+    <div class="container-fluid section">
+        <div id="section-1">
+            <div class="stars">
+                <div class="twinkling">
+                    <div class="img_story_2">
+                        <img src="./img/services_img_2/common_parts_thumbnail.png" class="img_">
+                    </div>
+                    <div class="img_story_2">
+                        <img src="./img/services_img_2/production_sched_thumbnail.jpg" class="img_">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Third Section -->
+    <div class="container-fluid section">
+            <div id="section-1">
+                <div class="stars">
+                    <div class="twinkling">
+                        <div class="img_story_3">
+                            <img src="./img/services_img_2/rads_scheduling_thumbnail.jpg" class="img_">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!--  Footer -->
+    <footer class="footer">
+        <div class="container-fluid" id="social-media"> 
+        <h4> © Deep Dive Analytics. 2019 All Rights Reserved</h4>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
