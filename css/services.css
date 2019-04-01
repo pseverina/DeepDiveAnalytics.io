@@ -66,22 +66,68 @@
 
 .img_story_1{
    display: inline;
+   margin-left: 50px;
+}
+
+#img_1{
+    margin-top: 35px;
+    margin-left: 160px;
+}
+
+#img_1__label{
+    margin-left: 260px;
+    color: gray;
+}
+
+#img_2{
+    margin-top: -324px;
+    margin-right: 220px;
+    float: right;
+}
+
+#img_2__label{
+    margin-top: -42px;
+    margin-right: 330px;
+    float: right;
+    color: #d9d9d9;
 }
 
 .img_story_2{
     display: block;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 210px;
  }
 
- .img_story_3{
-  
+ #img_3__label{
+     float: right;
+     margin-right: 240px;
+     margin-top: 80px;
+     color: #008000;
  }
+
+ #img_4__label{
+    float: right;
+    margin-right: 220px;
+    margin-top: 90px;
+    color: #4dff4d;
+}
+
+ .img_story_3{
+    text-align: center;
+ }
+
+ #img_5__label{
+     margin-left: 390px;
+     width: 500px;
+     margin-bottom: 0px;
+    background-color:white;
+     color: black;
+ }
+
 
 .img_{
 	width: 350px;
-    height: 220px; 
-	margin-left: 160px;
-	margin-top: 20px;
+    height: 260px; 
 }
 
 .img_story_1:hover  .img_ {
