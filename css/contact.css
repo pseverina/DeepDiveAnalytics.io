@@ -1,0 +1,109 @@
+body{
+    height: 100%;
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    margin: 0 !important; 
+}
+
+
+.navbar ul li a{
+    color: whitesmoke !important;
+}
+
+.navbar ul li a:hover{ 
+    color: #58F86F !important;
+}
+
+#logo_brand{
+    margin-top: -10px;
+    margin-left: 10px; 
+    height: 40px;
+    width: 40px;
+}
+
+#section-1__h1{
+    position: relative;
+    padding-top: 5%;
+    text-align: center;
+    color:whitesmoke;
+}
+
+form{
+    color: whitesmoke;
+    margin: 5% 0% 5% 36%;
+    width: 28%;
+    background-color:#222222;
+    border: 1px solid black;
+    filter: alpha(opacity=70);
+}
+
+#list__foooter ul{
+    position: relative;
+    margin-top:5%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    color: #f5f5f5 ;
+}
+
+.social-media{
+    width: 36px;
+    height: 36px;
+    font-size:23px;
+    margin: 10px; 
+    border: 2px solid #23527c;
+    border-radius: 50%;
+}
+
+.social-media:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+/* Background */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+    width:100%;
+    height:100%;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background-attachment: fixed;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}

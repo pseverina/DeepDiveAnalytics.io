@@ -1,0 +1,156 @@
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    margin : 0 !important; 
+}
+
+.navbar ul li a{
+    color: whitesmoke !important;
+}
+
+.navbar ul li a:hover{ 
+    color: #58F86F !important;
+}
+
+#logo_brand{
+    margin-top: -10px;
+    margin-left: 10px; 
+    height: 40px;
+    width: 40px;
+}
+
+span{
+    color: #58F86F;
+}
+
+#section-1__h1{
+    padding-top: 6%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#text{
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.section-1__text{
+    font-size: 20px;
+    margin-top: 2%;
+    color: whitesmoke;
+}
+
+#image{
+    text-align: center;
+}
+
+.img{
+    margin: 4% 1.5%;
+    width: 300px;
+    height: 200px;
+}
+
+#list__foooter ul{
+    position: relative;
+    margin-top:5%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    color: #f5f5f5 ;
+}
+
+.social-media{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size:23px;
+    margin: 0% 0% 0% 0.5%; 
+    border: 2px solid #23527c;
+    border-radius: 50%;
+}
+
+.social-media:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+#footer_rights{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+/* Background */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+    width:100%;
+    height:100%;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background-attachment: fixed;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+/*  Adjust for Cellphones */
+@media only screen and (max-width: 680px) {
+    .img{
+        width: 60%;
+        height: 30%;
+    }
+
+    #section-1__h1{
+        margin-top: 12%;
+        font-size: 22px;
+    }
+
+    .section-1__text{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+
+    #footer_rights{
+        font-size: 10px;
+        margin-left: -20%;
+    }
+
+    .social-media{
+        margin-right: 0%;
+        margin-left:1%;
+    }
+}
+
+  
