@@ -154,12 +154,16 @@ body{
 .img_story{
     background-color: #454746;
     margin-top: 40px;
-    margin-left: 10%;
+    margin-left: 8%;
     float: left;
     width: 20%;
     height: 310px;
     filter: grayscale(100%);
     transition: 0.5s;
+}
+
+#img_story__first_pic-1, #img_story__first_pic-2{
+    margin-left: 12% !important;
 }
 
 .img_story img {
@@ -223,7 +227,8 @@ body{
 
 #section-5__text-1{
     margin-top: 3%;
-    margin-right: 55%;
+    width: 35%;
+    margin-left: 5%;
     color:whitesmoke;
     text-align: center;
     font-size: 25px;
@@ -231,19 +236,20 @@ body{
 
 #section-5__text-2{
     margin-top: 5%;
-    margin-right: 55%;
+    width: 35%;
+    margin-left: 5%;
     color:whitesmoke;
     text-align: center;
     font-size: 25px;
 }
 
 #section-5_decisions{
-    margin-left: 17%;
+    margin-left: 15%;
 }
 
 #list__foooter ul{
     position: relative;
-    margin-top:15%;
+    margin-top:8%;
     width: 100%;
     height: 30%;
     text-align: center;
@@ -340,10 +346,10 @@ body{
 #black_hole{   
     position: absolute;
     height: 500px;
-    right: 5%;
-    margin-right: 5%;
-    margin-top:-32%;
     width: 450px;
+    right: 5%;
+    margin-right: 15%;
+    margin-top: -30%;
     z-index:1;
    -webkit-animation: rotation 8s infinite linear;
 }
@@ -351,8 +357,8 @@ body{
 #spaceman{
     position: absolute;
     height: 400px;
-    margin-top: -28%;
-    margin-left: 60%;
+    margin-top: -25%;
+    margin-left: 55%;
     z-index:2;
 }
 
@@ -468,11 +474,15 @@ body{
 
     .img_story{
         margin-top: 2%;
-        margin-left: 2%;
+        margin-left: 8%;
         width: 90px;
         height: 150px;
     }
-    
+
+    #img_story__first_pic-1, #img_story__first_pic-2{
+        margin-left: 3% !important;
+    }
+
     .img_story__label{
         font-size: 10px;
         margin-left: 5%;
@@ -548,6 +558,62 @@ body{
         height: 10%;
     }
 
+}
+
+/* Adjust for Pixel 2*/
+@media only screen and (min-width : 411px) and (max-width: 823px){
+    .img_story{
+        margin-left: 5%;
+    }
+}
+
+/* Adjust for IPhone 5/SE*/
+@media only screen and (min-width : 320px) and (max-width: 568px){
+    #head_name{
+        margin-top: 25%;
+    }
+
+    #dive_in{
+        font-size: 10px;
+        width: 15%;
+    }
+
+    .glyphicon-chevron-left, .glyphicon-chevron-right{
+        font-size: 12px !important;
+    }
+
+    .img_story{
+        width: 80px;
+        height: 150px;
+    }
+   
+    .img_story__label{
+        font-size: 10px;
+        margin-left: 5%;
+        margin-bottom: 0%;
+        margin-top: 5%;
+    }
+
+    #section-5__head{
+        font-size: 10px;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+
+    #black_hole{
+        margin-top: -50%;
+        margin-right: 8%;
+        height: 30%;
+        width: 45%;
+    }
+
+    #spaceman{
+        margin-top: -50%;
+        margin-right: 25%;
+        height: 30%;
+        width: 30%;
+    } 
 }
 
 /* Adjust to Ipad Size*/

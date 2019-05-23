@@ -74,18 +74,29 @@
             <h1 id="section-1__header"> Success Stories</h1>
             <hr style="text-align: center; width: 22%; color:gray;">
             <div id="section-1__header-2">
-                <h2> Filter by Technique 
-                    <!-- Example single danger button -->
+                <h3> Filter by
                     <div class="btn-group">
-                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select
+                        <button class="btn btn-default dropdown-toggle" id="Technique" type="button" data-toggle="dropdown"> Technique 
                         <span class="caret"></span></button>
                         <ul class="dropdown-menu">
                             <li><a class="category_item" id="all" href="#"> ALL </a></li>
-                            <li><a class="category_item" id="1" href="#"> 1</a></li>
-                            <li><a class="category_item" id="2" href="#"> 2</a></li>
+                            <li><a class="category_item" id="OM" href="#"> Optimization Modeling</a></li>
+                            <li><a class="category_item" id="NLP" href="#"> NLP Optimization Modeling</a></li>
+                            <li><a class="category_item" id="ML" href="#"> Machine Learning</a></li>
                         </ul>
                     </div>
-                </h2> 
+                    <span> or </span>
+                    <div class="btn-group">
+                        <button class="btn btn-default dropdown-toggle" id="Industry" type="button" data-toggle="dropdown"> Industry
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a class="category_item" id="all" href="#"> ALL </a></li>
+                            <li><a class="category_item" id="SCH" href="#"> Supply Chain</a></li>
+                            <li><a class="category_item" id="HC" href="#"> Healthcare</a></li>
+                        </ul>
+                    </div>
+                </h3> 
+
             </div>
             
             <div id="Carousel" class="carousel slide" data-interval="false">
@@ -98,45 +109,48 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div class="img_story 2"> 
+                        <div class="img_story OM SCH"> 
                             <a target="_blank" href="./img/services_img/capital_ investment.jpg" data-lightbox="img_story_2">
                                 <img src="./img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest">
                             </a>
-                            <h3 class="img_story__label"> Capital Investment</h3>
-                            <h4 class="img_story__label__2"> Optimization Mathematical Modeling</h4>
-                            <span class="glyphicon glyphicon-arrow-right"></span>
+                            <h4 class="img_story__label"> Decision Support Tool for <br> Capital Investment</h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling</h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_1">
                         </div>
-                        <div class="img_story 2">
+                        <div class="img_story NLP SCH">
                             <a target="_blank" href="./img/services_img/Inventory_Optimization.jpg" data-lightbox="img_story_2">
                                 <img src="./img/services_img_2/inventory_thumbnail.jpg" alt="inventory">
                             </a>
-                            <h3 class="img_story__label"> Inventory </h3>
-                            <h4 class="img_story__label__2"> Optimization Mathematical Modeling </h4>
-                            <span class="glyphicon glyphicon-arrow-right"></span>
+                            <h4 class="img_story__label"> Inventory Optimization <br> Support Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: NLP Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_2">
                         </div>
-                        <div class="img_story 1">
+                        <div class="img_story ML SCH">
                             <a target="_blank" href="./img/services_img/Materials_Harmonization.jpg" data-lightbox="img_story_1">
                                 <img src="./img/services_img_2/common_parts_thumbnail.png" alt="common_parts">
                             </a>
-                            <h3 class="img_story__label"> Common Parts </h3>
-                            <h4 class="img_story__label__2"> Optimization Mathematical Modeling </h4>
-                            <span class="glyphicon glyphicon-arrow-right"></span>
+                            <h4 class="img_story__label"> Common Parts </h4>
+                            <h5 class="img_story__label__2"> Optimization Mathematical Modeling </h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_3">
                         </div>
-                        <div class="img_story 2"> 
+                        <div class="img_story OM SCH"> 
                             <a target="_blank" href="img/services_img/Production_Scheduling.jpg" data-lightbox="img_story_2">
                                 <img src="./img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"> 
                             </a>
-                            <h3 class="img_story__label"> Production Sched </h3>
-                            <h4 class="img_story__label__2"> Optimization Mathematical Modeling </h4>
-                            <span class="glyphicon glyphicon-arrow-right"></span>
+                            <h4 class="img_story__label"> Production Sched </h4>
+                            <h5 class="img_story__label__2"> Optimization Mathematical Modeling </h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_4">
                         </div>
-                        <div class="img_story 1">
+                        <div class="img_story OM HC">
                             <a target="_blank" href="./img/services_img/Radiology_Scheduling.jpg" data-lightbox="img_story_1"> 
                                 <img src="./img/services_img_2/rads_scheduling_thumbnail.jpg" alt="rads_scheduling"> 
                             </a>
-                            <h3 class="img_story__label"> Rads Scheduling </h3>
-                            <h4 class="img_story__label__2"> Optimization Mathematical Modeling </h4>
-                            <span class="glyphicon glyphicon-arrow-right"></span>
+                            <h4 class="img_story__label"> Radiology Residency Scheduling Solution </h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_5">
                         </div>
                     </div>
 
@@ -157,23 +171,51 @@
             </div>
             <div> 
                 <h1 id="section-3_head"> Testimonials</h1>
-                <div id="phrases">
-                    <div class="quotes">
-                            <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
-                            “More of these data-driven projects should take place throughout J&J” <br>             ​
-                            - Everyone , President at Company Name 1 !
+                <div id="Carousel_2" class="carousel slide" data-interval="false">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Carousel_2" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel_2" data-slide-to="1"></li>
+                        </ol>
+        
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="quotes">
+                                        <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
+                                        “More of these data-driven projects should take place throughout J&J” <br>             ​
+                                        - Everyone , President at Company Name 1 !
+                                </div>
+                                <div class="quotes">
+                                        <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
+                                    “More of these data-driven projects should take place throughout J&J” <br>             ​
+                                    - Everyone , President at Company Name 2!
+                                </div> 
+                            </div>
+                            <div class="item">
+                                <div class="quotes">
+                                        <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
+                                        “More of these data-driven projects should take place throughout J&J” <br>             ​
+                                        - Everyone , President at Company Name 1 !
+                                </div>
+                                <div class="quotes">
+                                        <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
+                                    “More of these data-driven projects should take place throughout J&J” <br>             ​
+                                    - Everyone , President at Company Name 2!
+                                </div> 
+                            </div>
+                        </div>
+        
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#Carousel_2" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#Carousel_2" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <div class="quotes">
-                            <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
-                        “More of these data-driven projects should take place throughout J&J” <br>             ​
-                        - Everyone , President at Company Name 2!
-                    </div>
-                    <div class="quotes">
-                            <img id="quote" alt="quote" src="img/icons_img/quotation.svg">
-                        “More of these data-driven projects should take place throughout J&J” <br>             ​
-                        - Everyone , President at Company Name 3!
-                    </div>
-                </div>
             </div>
 
             <div>
@@ -186,35 +228,16 @@
              <!--  Footer -->
             <footer class="font">
                 <div class="container-fluid"> 
-                <div id="list__foooter">
-                    <ul>
-                        <li id="footer_rights"  style="display: inline-block;"> <h4> © Deep Dive Analytics. 2019 All Rights Reserved</h4></li>
-                        <li class="social-media"  style="display: inline-block;"><a href="https://web.facebook.com/deepdiveanalytics.io?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a> </li>
-                        <li class="social-media"  style="display: inline-block;"><a href="https://www.linkedin.com/in/stevenriotti/"><i class="fa fa-linkedin-square"></i></a></li>
-                    </ul>
-                </div>
+                    <div id="list__foooter">
+                        <ul>
+                            <li id="footer_rights">  © Deep Dive Analytics. 2019 All Rights Reserved</li>
+                            <li class="social-media"><a href="https://web.facebook.com/deepdiveanalytics.io?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a> </li>
+                            <li class="social-media"><a href="https://www.linkedin.com/in/stevenriotti/"><i class="fa fa-linkedin-square"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </footer> 
         </div>
     </div>
 </body>
-
-<script type="text/javascript">
-    (function() {
-
-        var quotes = $(".quotes");
-        var quoteIndex = -1;
-
-        function showNextQuote() {
-            ++quoteIndex;
-            quotes.eq(quoteIndex % quotes.length)
-                .fadeIn(2000)
-                .delay(2000)
-                .fadeOut(2000, showNextQuote);
-        }
-
-        showNextQuote();
-
-    })();
-</script>
 </html>

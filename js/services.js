@@ -4,14 +4,52 @@ $(document).ready(function(){
 
     if(category == 'all'){
       $('.img_story').show();
-    } else if (category == '1'){
-      $('.2').hide();
-      $('.1').show();
-    } else if(category == '2'){
-      $('.1').hide();
-      $('.2').show();
+    } else if (category == 'NLP'){
+      $('.NLP').show();
+      $('.OM').hide();
+      $('.ML').hide();
+    } else if(category == 'OM'){
+      $('.OM').show();
+      $('.NLP').hide();
+      $('.ML').hide();
+    } else if(category == 'ML'){
+      $('.ML').show();
+      $('.NLP').hide();
+      $('.OM').hide();
+    } else if(category == 'SCH'){
+      $('.SCH').show();
+      $('.HC').hide();
+    } else if(category == 'HC'){
+      $('.HC').show();
+      $('.SCH').hide();
     }
 
   });
 });
 
+$(document).ready(function(){
+  $("#all").click(function(){
+    $("#Carousel").height(880);
+  });
+
+  $("#NLP").click(function(){
+    $("#Carousel").height(480);
+  });
+
+  $("#ML").click(function(){
+    $("#Carousel").height(480);
+  });
+
+  $("#OM").click(function(){
+    $("#Carousel").height(480);
+  });
+
+  $("#SCH").click(function(){
+    $("#Carousel").height(880);
+  });
+
+  $("#HC").click(function(){
+    $("#Carousel").height(480);
+  });
+
+});
