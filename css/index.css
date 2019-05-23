@@ -199,7 +199,7 @@ body{
 
 #phrases{
     margin-top: -7%;
-    margin-left: 7%;
+    margin-left: 15%;
     text-align: center;
 }
 
@@ -211,7 +211,7 @@ body{
 .quotes{
     font-style: italic;
     color:whitesmoke;
-    font-size: 20px;
+    font-size: 18px;
     display: none;
 }
 
@@ -243,7 +243,7 @@ body{
 
 #list__foooter ul{
     position: relative;
-    margin-top:5%;
+    margin-top:15%;
     width: 100%;
     height: 30%;
     text-align: center;
@@ -253,10 +253,11 @@ body{
 }
 
 .social-media{
+    display: inline-block;
     width: 36px;
     height: 36px;
     font-size:23px;
-    margin: 10px; 
+    margin: 0% 0% 0% 0.5%; 
     border: 2px solid #23527c;
     border-radius: 50%;
 }
@@ -265,6 +266,11 @@ body{
     color: black;
     background: white;
     border: 2px solid black;
+}
+
+#footer_rights{
+    display: inline-block;
+    font-size: 20px;
 }
 
 #vertical_flip{
@@ -416,29 +422,38 @@ body{
         margin-top: 5%;
         margin-left: 10%;
         width: 20%;
-        height: 50%;
+        height: 60%;
     }
 
     .section2__img_logo{
-        height: 80%;
-        width: 60%;
+        margin-top: 25%;
+        height: 100%;
+        width: 70%;
+        margin-bottom: 20%;
     }
 
     .section-2__head-3{
-        font-size: 13px;
-    }
-
-    .section-2__head-4{
-        font-size: 12px;
-    }
-
-    .section-2__text_1{
+        margin-top: 5%;
         font-size: 10px;
     }
 
-    #Carousel{
-        height: 300px;
+    .section-2__head-4{
+        margin-top: 5%;
+        font-size: 10px;
     }
+
+    .section-2__text_1{
+        font-size: 9px;
+    }
+
+    #Carousel{
+        margin-top: 5%;
+        height: 250px;
+    }
+
+   .glyphicon-chevron-left, .glyphicon-chevron-right{
+       font-size: 15px !important;
+   }
 
     .item{
         margin-left: 8%;
@@ -452,189 +467,182 @@ body{
     } 
 
     .img_story{
+        margin-top: 2%;
         margin-left: 2%;
-        width: 28%;
-        height: 15%;
+        width: 90px;
+        height: 150px;
     }
     
     .img_story__label{
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 5%;
+        margin-bottom: 0%;
     }
 
     .img_story__label__2{
-        font-size: 9px;
+        font-size: 6px;
+        margin-top: 3%;
         margin-left: 5%;
+        margin-bottom: 0%;
     }
 
     .glyphicon{
-        font-size: 1.1em;
+        font-size: 10px;
         margin-left: 5%;
     }
 
     #section-3__head__2, #section-4_head, #item_added_quote{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .quotes{
         margin-left: 15%;
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    .clients{
+        margin-top: -15%;
+    }
+
+    #section-5__head{
+        font-size: 13px;
+    }
+
+    #section-5_decisions{
+        margin-left: 22%;
+    }
+
+    #section-5__text-1{
+        margin-left: 6%;
+        margin-top: 10%;
+        font-size: 9px;
+    }
+
+    #section-5__text-2{
+        margin-left: 6%;
+        font-size: 9px;
+    }
+   
+    #black_hole{
+        margin-top: -35%;
+        margin-right: 10%;
+        height: 20%;
+        width: 30%;
+    }
+
+    #spaceman{
+        margin-top: -35%;
+        margin-right: 25%;
+        height: 20%;
+        width: 30%;
+    }
+
+    #footer_rights{
+        font-size: 8px;
+    }
+
+    .social-media{
+        margin-left: 2%;
+        margin-right: 0%;
+        width: 12%;
+        height: 10%;
+    }
+
+}
+
+/* Adjust to Ipad Size*/
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+    #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
+        width: 27%;
+        margin-left: 5%;
+    }
+
+    #img_story__first_pic-1, #img_story__first_pic-2{
+        margin-left: 10%;
+    }
+
+    .img_story__label{
+        font-size: 20px;
+        margin-left: 5%;
+        margin-bottom: 0%;
+    }
+
+    .img_story__label__2{
+        font-size: 18px;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 0%;
+    }
+
+    .glyphicon{
+        margin-left: 5%;
+    }
+
+    .img_story{
+        margin-left: 4%;
+        width:185px;
+        height: 320px;
+    }
+
+    .section2__img_logo{
+        width: 50%;
     }
 
     .clients{
         margin-top: -10%;
     }
 
-    #section-5__head{
-        font-size: 15px;
-    }
-
-    #section-5__text-1{
-        margin-top: 5%;
-        font-size: 12px;
-    }
-
-    #section-5__text-2{
-        font-size: 12px;
-    }
-
-
-    #footer_rights{
-        margin-top: 10%;
-        font-size: 10%;
-    }
-
-    #black_hole{
-        margin-top: -44%;
-        margin-right: -5%;
-        height: 40%;
-        width: 50%;
-    }
-
-    #spaceman{
-        margin-top: -43%;
-        margin-right: 15%;
-        height: 40%;
-        width: 50%;
-    }
-
-}
-
-
-@media only screen and (max-width: 680px) {
-    #section-2__head, #section-3__head__2, #section-4_head, #item_added_quote{
-        font-size: 15px;
-    }
-
-    #dive_in{
-        font-size:10px;
-    }
-
-    #section-2__pic_1,  #section-2__pic_2,  #section-2__pic_3{
-        position: relative;
-        margin-top: 5%;
-        margin-left: 10%;
-        width: 20%;
-        height: 50%;
-    }
-
-    .section2__img_logo{
-        height: 80%;
-        width: 60%;
-    }
-
-    .section-2__head-3{
-        font-size: 13px;
-    }
-
-    .section-2__head-4{
-        font-size: 12px;
-    }
-
-    .section-2__text_1{
-        font-size: 10px;
-    }
-
-    #Carousel{
-        height: 350px;
-    }
-
-    .item{
-        margin-left: 8%;
-        margin-top: 5%;
-    }
-
-    #section-3__head{
-        position: relative;
-        margin-top: 10%;
-        font-size: 13px;
-    } 
-
-    .img_story{
-        margin-left: 2%;
-        width: 28%;
-        height: 15%;
-    }
-    
-    .img_story__label{
-        font-size: 12px;
-        margin-left: 5%;
-    }
-
-    .img_story__label__2{
-        font-size: 9px;
-        margin-left: 5%;
-    }
-
-    .glyphicon{
-        font-size: 1.1em;
-        margin-left: 5%;
-    }
-
-    .quotes{
-        margin-left: 20%;
-        font-size: 10px;
-    }
-
-    .clients{
-        margin-top: -15%;
-        margin-left: 13%;
-    }
-
-    #section-5_decisions{
-        margin-left: 30%;
-    }
-
-    #section-5__head{
+    #section-2__head , #section-3__head, #section-3__head__2, #section-4_head, #section-5__head{
         font-size: 25px;
     }
 
-    #section-5__text-1{
-        margin-top: 5%;
-        font-size: 10px;
+    .quotes{
+        margin-left: 5%;
+        font-size: 15px;
+    }
+    
+    #black_hole{
+        margin-top: -40%;
+        margin-right: 10%;
+        height: 25%;
+        width: 35%;
     }
 
-    #section-5__text-2{
-        font-size: 10px;
+    #spaceman{
+        margin-top: -40%;
+        margin-right: 25%;
+        height: 30%;
+        width: 30%;
+    }    
+}
+
+/* Adjust to Ipad Size*/
+@media only screen and (min-width : 1024px) and (max-width : 1366px){
+    .section2__img_logo{
+        width: 50%;
+        height: 40%;
     }
 
-    #footer_rights{
-        margin-top: 10%;
-        font-size: 10%;
+    .img_story{
+        margin-left: 8%;
+    }
+
+    #img_story__first_pic-1,   #img_story__first_pic-2{
+        margin-left: 15%;
     }
 
     #black_hole{
-        margin-top: -35%;
-        margin-right: 5%;
-        height: 40%;
-        width: 40%;
+        margin-top: -30%;
+        margin-right: 10%;
+        height: 25%;
+        width: 35%;
     }
 
     #spaceman{
         margin-top: -30%;
-        margin-right: 15%;
+        margin-right: 30%;
         height: 30%;
         width: 30%;
-    }
+    } 
 
 }
