@@ -133,7 +133,7 @@ body{
 #section-3__head__2{
     margin-left: 5%;
     color:whitesmoke;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 #section-4_head {
@@ -157,7 +157,7 @@ body{
     margin-left: 8%;
     float: left;
     width: 20%;
-    height: 310px;
+    height: 350px;
     filter: grayscale(100%);
     transition: 0.5s;
 }
@@ -182,13 +182,35 @@ body{
     margin-top: 5px;
     color: #d9d9d9;
 }
+#arrow_1{
+    margin-top: -5% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
 
-.glyphicon{
-    margin-left: 20px;
-    margin-top: 0;
-    color: #58F86F;
-    font-size: 1.8em;
-} 
+#arrow_2{
+    margin-top: -5% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_3{
+    margin-top: -10% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_4{
+    margin-top: -5% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_5{
+    margin-top: -10% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
 
 #item_added_quote{
     text-align: center; 
@@ -219,6 +241,11 @@ body{
     display: none;
 }
 
+#hr_1{
+    margin-top: 10%;
+    width: 80%;
+    color:grey;
+}
 #section-5__head{
     color: whitesmoke;
     text-align: center;
@@ -474,9 +501,9 @@ body{
 
     .img_story{
         margin-top: 2%;
-        margin-left: 8%;
+        margin-left: 3%;
         width: 90px;
-        height: 150px;
+        height: 180px;
     }
 
     #img_story__first_pic-1, #img_story__first_pic-2{
@@ -484,7 +511,7 @@ body{
     }
 
     .img_story__label{
-        font-size: 10px;
+        font-size: 9px;
         margin-left: 5%;
         margin-bottom: 0%;
     }
@@ -495,11 +522,34 @@ body{
         margin-left: 5%;
         margin-bottom: 0%;
     }
+    #arrow_1, #arrow_4 {
+        margin-left: -5%;
+        margin-top: -10% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
 
-    .glyphicon{
-        font-size: 10px;
-        margin-left: 5%;
-    }
+     #arrow_2{
+        margin-left: -5%;
+        margin-top: -10% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
+
+     #arrow_3{
+        margin-left: -5%;
+        margin-top: -10% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
+
+     #arrow_5{
+        margin-left: -5%;
+        margin-top: -8% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
+
 
     #section-3__head__2, #section-4_head, #item_added_quote{
         font-size: 12px;
@@ -568,7 +618,7 @@ body{
 }
 
 /* Adjust for IPhone 5/SE*/
-@media only screen and (min-width : 320px) and (max-width: 568px){
+@media only screen and (width: 320px) and (height: 568px) and (-webkit-min-device-pixel-ratio: 2){
     #head_name{
         margin-top: 25%;
     }
@@ -584,11 +634,19 @@ body{
 
     .img_story{
         width: 80px;
-        height: 150px;
+        height: 180px;
+        margin-left: 3%;
     }
    
     .img_story__label{
-        font-size: 10px;
+        font-size: 8px;
+        margin-left: 5%;
+        margin-bottom: 0%;
+        margin-top: 5%;
+    }
+
+    .img_story__label__2{
+        font-size: 6px;
         margin-left: 5%;
         margin-bottom: 0%;
         margin-top: 5%;
@@ -599,6 +657,33 @@ body{
         margin-left: 10%;
         width: 80%;
     }
+
+    #arrow_1, #arrow_4 {
+        margin-left: -5%;
+        margin-top: -5% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
+
+     #arrow_2{
+        margin-left: -5%;
+        height: 30px !important;
+        width: 40px !important;
+     }
+
+     #arrow_3{
+        margin-left: -5%;
+        margin-top: -5% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
+
+     #arrow_5{
+        margin-left: -5%;
+        margin-top: -8% !important;
+        height: 30px !important;
+        width: 40px !important;
+     }
 
 
     #black_hole{
@@ -617,37 +702,33 @@ body{
 }
 
 /* Adjust to Ipad Size*/
-@media only screen and (min-width : 768px) and (max-width : 1024px){
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
         width: 27%;
         margin-left: 5%;
     }
 
     #img_story__first_pic-1, #img_story__first_pic-2{
-        margin-left: 10%;
+        margin-left: 10% !important;
     }
 
     .img_story__label{
-        font-size: 20px;
+        font-size: 14px;
         margin-left: 5%;
         margin-bottom: 0%;
     }
 
     .img_story__label__2{
-        font-size: 18px;
+        font-size: 13px;
         margin-top: 3%;
         margin-left: 5%;
         margin-bottom: 0%;
     }
 
-    .glyphicon{
-        margin-left: 5%;
-    }
-
     .img_story{
         margin-left: 4%;
         width:185px;
-        height: 320px;
+        height: 340px;
     }
 
     .section2__img_logo{
@@ -682,19 +763,20 @@ body{
     }    
 }
 
-/* Adjust to Ipad Size*/
-@media only screen and (min-width : 1024px) and (max-width : 1366px){
+/* Adjust to Ipad ProSize*/
+@media only screen and (min-width: 834px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
     .section2__img_logo{
         width: 50%;
         height: 40%;
     }
 
     .img_story{
-        margin-left: 8%;
+        margin-left: 8% !important;
+        width: 21%;
     }
 
     #img_story__first_pic-1,   #img_story__first_pic-2{
-        margin-left: 15%;
+        margin-left: 17%;
     }
 
     #black_hole{
