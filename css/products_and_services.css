@@ -141,7 +141,7 @@
     margin-left: 8%;
     float: left;
     width: 260px;
-    height: 320px;
+    height: 360px;
     filter: grayscale(100%);
     transition: 0.5s;
 }
@@ -164,12 +164,39 @@
     color: #d9d9d9;
 }
 
-.glyphicon{
-    float:left;
-    margin-left: 20px;
-    color: #58F86F;
-    font-size: 1.8em;
-} 
+#arrow_1{
+    margin-left:  -87% !important;
+    margin-top: 35% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_2{
+    margin-top: 35% !important;
+    margin-left:  -100% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_3{
+    margin-top: 35% !important;
+    margin-left:  -77% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_4{
+    margin-top: 35% !important;
+    margin-left:  -87% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
+
+#arrow_5{
+    margin-top: -10% !important;
+    width: 65px !important;
+    height: 70px !important;
+}
 
 #list__foooter ul{
     position: relative;
@@ -280,7 +307,7 @@
     }
 
     .img_story{
-        height: 100px;
+        height: 160px;
         width: 70px;
     }
 
@@ -312,9 +339,30 @@
     }
 
     #Carousel{
-        height: 220px;
+        height: 270px;
         width: 100%;
     }
+
+    #arrow_1, #arrow_2,  #arrow_4{
+        margin-top: -30% !important;
+        margin-left: -5% !important;
+        height: 20px !important;
+        width: 30px !important;
+     }
+
+     #arrow_3{
+        margin-top: -43% !important;
+        margin-left: -5% !important;
+        height: 20px !important;
+        width: 30px !important;
+     }
+
+     #arrow_5{
+        margin-left: -43%;
+        margin-top: -5% !important;
+        height: 20px !important;
+        width: 30px !important;
+     }
 
     #first_item_in_slide, #first_item_in_slide_2{
         margin-left: 13%;
@@ -335,12 +383,6 @@
     #item_coming_up{
         text-align: center; 
         color:  whitesmoke;
-    }
-
-    .glyphicon{
-        font-size: 80%;
-        margin-top: -12%;
-        margin-left: 5%;
     }
 
     .glyphicon-chevron-left, .glyphicon-chevron-right{
@@ -414,7 +456,7 @@
     }
 
     #Carousel{
-        height: 320px;
+        height: 400px;
         width: 100%;
     }
 
@@ -427,7 +469,7 @@
     }
 
     .img_story{
-        height: 180px;
+        height: 280px;
         width: 140px;
     }
 
@@ -436,7 +478,7 @@
     }
 
     .img_story__label{
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 8%;
         margin-left: 10%;
     }
@@ -446,11 +488,40 @@
         margin-left: 10%;
     }
 
-    .glyphicon{
-        margin-top: -2%;
-        font-size: 100%;
-    }
+    #arrow_1 {
+        margin-top: -10% !important;
+        margin-left: 0% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
 
+     #arrow_2{
+        margin-top: 0% !important;
+        margin-left: 0% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_3{
+        margin-top: 0% !important;
+        margin-left: 0% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_4{
+        margin-top: 0% !important;
+        margin-left: -3% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_5{
+        margin-top: 0% !important;
+        margin-left: 0%!important;
+        height: 40px !important;
+        width: 50px !important;
+     }
     .social-media{
         margin-left: 2%;
         margin-right: 0%;
