@@ -27,6 +27,12 @@
 	color: whitesmoke;
 }
 
+#hr_1{
+    text-align: center; 
+    width: 22%; 
+    color:gray;
+}
+
 #section-1__header-2{
     text-align: center; 
 	color: whitesmoke;
@@ -74,6 +80,11 @@
     color: #d9d9d9;
 }
 
+#things_are_coming{
+    text-align: center; 
+    color:  whitesmoke;
+}
+
 #arrow_1{
     margin-top: -5% !important;
     width: 65px !important;
@@ -87,13 +98,13 @@
 }
 
 #arrow_3{
-    margin-top: 12% !important;
+    margin-top: -10% !important;
     width: 65px !important;
     height: 70px !important;
 }
 
 #arrow_4{
-    margin-top: 12% !important;
+    margin-top: -5% !important;
     width: 65px !important;
     height: 70px !important;
 }
@@ -103,14 +114,6 @@
     width: 65px !important;
     height: 70px !important;
 }
-
-/*
-.glyphicon{
-    margin-left: 20px;
-    margin-top: -5%;
-    color: #58F86F;
-    font-size: 1.8em;
-} */
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
@@ -185,13 +188,6 @@
     padding-top: 10px;
     color: #d9d9d9;
 }
-
-.glyphicon{
-    margin-left: 30px;
-    padding-top: 7px;
-    color: #58F86F;
-    font-size: 1.8em;
-} 
 
 #img_story_2:hover {
     border: 2px solid #58F86F;
@@ -385,5 +381,379 @@
     font-size: 20px;
 }
 
+/* Adjust to Cellphone Size (Galaxy S5 , IPhone 6/7/8, IPhone X) */
 
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+    #section-1__header{
+        font-size:20px;
+        margin-top: 10%;
+    }
+
+    #hr_1{
+        width: 40%; 
+    }
+    
+    .img_story{
+        width: 100px;
+        margin-left: 2%;
+        height: 200px;
+    }
+
+    #Carousel{
+        height: 530px;
+    }
+
+    .item{
+        margin-left: 6%;
+    }
+
+    .img_story__label{
+        font-size: 8px;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .img_story__label__2{
+        font-size: 7px;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    #things_are_coming{
+        font-size: 20px;
+    }
+
+    .glyphicon-chevron-left, .glyphicon-chevron-right{
+         font-size: 15px;
+     }
+
+     #arrow_1, #arrow_4 {
+        margin-left: -5%;
+        margin-top: -10% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_2, #arrow_3{
+        margin-left: -5%;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_5{
+        margin-left: -5%;
+        margin-top: -15% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     .img_story:hover {
+        border: 2px solid #58F86F;
+        filter: grayscale(0%);
+    }
+
+    #section-3_head, #section-4 {
+        font-size:20px;
+        margin-top: 10%;
+    }
+
+    #Carousel_2{
+        height: 230px;
+    }
+
+    .quotes{
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    #section-4__clients{
+        margin-top: -6.5%;
+        margin-left: 15%;
+    }
+
+    #footer_rights{
+        font-size: 8px;
+    }
+
+    .social-media{
+        margin-left: 2%;
+        margin-right: 0%;
+        width: 12%;
+        height: 10%;
+    }
+}
+
+/* Adjust to Cellphone Size ( iPhone 5, 5S, 5C and 5SE ) */
+@media only screen and (width: 320px) and (height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .img_story{
+        width: 85px;
+        margin-left: 2%;
+        height: 185px;
+    }
+    
+    .img_story__label{
+        font-size: 7px;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+
+    #arrow_3{
+        margin-left: -10%;
+        margin-top: -16% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_5{
+        margin-left: -8%;
+        margin-top: -20% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+}
+
+/* Adjust to Cellphone Size (Pixel 2, Pixel 2 XL, IPhone 6/7/8 Plus) */
+
+@media only screen and (min-width: 410px) and (max-width: 415px) and (max-height: 823px) {
+    #section-1__header{
+        font-size:20px;
+        margin-top: 10%;
+    }
+
+    #hr_1{
+        width: 40%; 
+    }
+    
+    .img_story{
+        width: 100px;
+        margin-left: 2%;
+        height: 200px;
+    }
+
+    #Carousel{
+        height: 530px;
+    }
+
+    .item{
+        margin-left: 10%;
+    }
+
+    .img_story__label{
+        font-size: 8px;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .img_story__label__2{
+        font-size: 7px;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    #things_are_coming{
+        font-size: 20px;
+    }
+
+    .glyphicon-chevron-left, .glyphicon-chevron-right{
+         font-size: 15px;
+     }
+
+     #arrow_1, #arrow_4 {
+        margin-left: -5%;
+        margin-top: -10% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_2, #arrow_3{
+        margin-left: -5%;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     #arrow_5{
+        margin-left: -5%;
+        margin-top: -15% !important;
+        height: 40px !important;
+        width: 50px !important;
+     }
+
+     .img_story:hover {
+        border: 2px solid #58F86F;
+        filter: grayscale(0%);
+    }
+
+    #section-3_head, #section-4 {
+        font-size:20px;
+        margin-top: 10%;
+    }
+
+    #Carousel_2{
+        height: 230px;
+    }
+
+    .quotes{
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    #section-4__clients{
+        margin-top: -6.5%;
+        margin-left: 15%;
+    }
+
+    #footer_rights{
+        font-size: 8px;
+    }
+
+    .social-media{
+        margin-left: 2%;
+        margin-right: 0%;
+        width: 12%;
+        height: 10%;
+    }
+}
+
+
+/* Adjust to Ipad Size*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #section-1__header{
+        font-size:22px;
+        margin-top: 5%;
+    }
+
+    #hr_1{
+        width: 20%; 
+    }
+    
+    .img_story{
+        width: 200px;
+        margin-left: 2%;
+        height: 360px;
+    }
+
+    #Carousel{
+        height: 880px;
+        width: 100%;
+    }
+
+    .item{
+        margin-left: 8%;
+    }
+
+    .img_story__label{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: #d9d9d9;
+    }
+    
+    .img_story__label__2{
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 5px;
+        color: #d9d9d9;
+    }
+
+    #arrow_1, #arrow_2, #arrow_3, #arrow_4{
+        margin-top: -5% !important;
+        margin-left: 3%;
+        height: 50px !important;
+        width: 60px !important;
+     }
+
+     #arrow_5{
+        margin-left: 3%;
+        margin-top: -10% !important;
+        height: 50px !important;
+        width: 60px !important;
+     }
+
+     #Carousel_2{
+         margin-top: -10%;
+        height: 480px;
+        width: 100%;
+    }
+
+    #Carousel_2 .item{
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+
+    .quotes{
+        margin-left: 3%;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    #section-4__clients{
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    #footer_rights{
+        font-size: 14px;
+    }
+
+    .social-media{
+        margin-left: 2%;
+        margin-right: 0%;
+        width: 5%;
+        height: 10%;
+    }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .img_story{
+        width: 25%;
+        height: 430px;
+    }
+
+    #Carousel {
+        height: 1020px;
+    }
+
+    #Carousel .item{
+        margin-top: 0%;
+        margin-left: 15%;
+    }
+
+    .img_story__label{
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: #d9d9d9;
+    }
+    
+    .img_story__label__2{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 5px;
+        color: #d9d9d9;
+    }
+
+    #arrow_1, #arrow_2, #arrow_3, #arrow_4{
+        margin-top: -5% !important;
+        margin-left: 3%;
+        height: 60px !important;
+        width: 70px !important;
+     }
+
+     #arrow_5{
+        margin-left: 3%;
+        margin-top: -10% !important;
+        height: 60px !important;
+        width: 70px !important;
+     }
+}
 

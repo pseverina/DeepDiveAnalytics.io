@@ -32,6 +32,24 @@ body{
     color:whitesmoke;
 }
 
+#section-1__h2{
+    position: relative;
+    float: left;
+    color:whitesmoke;
+    margin-left: 5%;
+}
+
+#form_layout{
+    margin-top: 5%;
+    width: 65%;
+    background-color: bisque;
+}
+
+#social_media_layout{
+    width: 25%;
+}
+
+
 form{
     color: whitesmoke;
     margin: 5% 0% 5% 36%;
