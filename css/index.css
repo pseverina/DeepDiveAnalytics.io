@@ -18,7 +18,7 @@ body{
 }
 
 #dive_in{
-    color: white;
+    color: #58F86F ;
     margin: 0% 45%;
     width: 10%;
     font-size:14px;
@@ -26,7 +26,7 @@ body{
 
 #arrow_down{
     color: white;
-    margin: 0.5% 46%;
+    margin: 0.5% 46% 5% 46%;
     height: 15px;
 }
 
@@ -79,6 +79,7 @@ body{
 #section-2__pic_1:hover, #section-2__pic_2:hover, #section-2__pic_3:hover {
     border: 1px solid #58F86F;
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .section-2__text_1{
@@ -86,28 +87,28 @@ body{
     color:whitesmoke;
     text-align: center;
     z-index: 2;
+    margin-bottom: 15%;
 }
 
 #section-2__pic_1{
     margin-top: 5%;
     margin-left: 12%;
     width: 22%;
-    height: 350px;
+    height: 90%;
 }
 
 #section-2__pic_2{
     margin-top: 5%;
     margin-left: 5%;
     width: 22%;
-    height: 350px;
+    height: 90%;
 }
-
 
 #section-2__pic_3{
     margin-top: 5%;
     margin-left: 5%;
     width: 22%;
-    height: 350px;
+    height: 90%;
 }
 
 .section-2__head-3{
@@ -143,9 +144,10 @@ body{
 }
 
 #Carousel{
-    height: 450px;
+    min-height: 450px;
     width: 100%;
 }
+
 .img_story:hover {
     border: 2px solid #58F86F;
     filter: grayscale(0%);
@@ -156,34 +158,37 @@ body{
     margin-top: 40px;
     margin-left: 8%;
     float: left;
-    width: 20%;
-    height: 350px;
+    width: 22%;
+    height: 340px;
     filter: grayscale(100%);
     transition: 0.5s;
 }
 
-#img_story__first_pic-1, #img_story__first_pic-2{
-    margin-left: 12% !important;
-}
-
 .img_story img {
     width: 100%;
-    height: 60%;
+    height: 55%;
 }
 
+.carousel-inner {
+    margin: 0% 12% 5% 12%;
+    width: 80% !important;
+}
+  
 .img_story__label{
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 10px;
     color: #d9d9d9;
 }
 
 .img_story__label__2{
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 5px;
     color: #d9d9d9;
+    margin-bottom: 0%;
 }
+
 #arrow_1{
-    margin-top: -5% !important;
+    margin-top: 0% !important;
     width: 65px !important;
     height: 70px !important;
 }
@@ -195,19 +200,19 @@ body{
 }
 
 #arrow_3{
-    margin-top: -10% !important;
+    margin-top: -7% !important;
     width: 65px !important;
     height: 70px !important;
 }
 
 #arrow_4{
-    margin-top: -5% !important;
+    margin-top: 0% !important;
     width: 65px !important;
     height: 70px !important;
 }
 
 #arrow_5{
-    margin-top: -10% !important;
+    margin-top: -5% !important;
     width: 65px !important;
     height: 70px !important;
 }
@@ -371,21 +376,21 @@ body{
 
 
 #black_hole{   
-    position: absolute;
-    height: 500px;
-    width: 450px;
+    position: relative;
+    height: 80%;
+    width: 35%;
     right: 5%;
-    margin-right: 15%;
-    margin-top: -30%;
     z-index:1;
-   -webkit-animation: rotation 8s infinite linear;
+    margin-left: 60%;
+    margin-top: -25%;
+   -webkit-animation: rotation 20s infinite linear;
 }
 
 #spaceman{
-    position: absolute;
-    height: 400px;
-    margin-top: -25%;
-    margin-left: 55%;
+    position: relative;
+    height: 420px;
+    margin-top: -35%;
+    margin-left: 65%;
     z-index:2;
 }
 
@@ -506,10 +511,6 @@ body{
         height: 180px;
     }
 
-    #img_story__first_pic-1, #img_story__first_pic-2{
-        margin-left: 3% !important;
-    }
-
     .img_story__label{
         font-size: 9px;
         margin-left: 5%;
@@ -565,7 +566,9 @@ body{
     }
 
     #section-5__head{
+        margin-top: 15%;
         font-size: 13px;
+        margin-bottom: 5%;
     }
 
     #section-5_decisions{
@@ -574,11 +577,12 @@ body{
 
     #section-5__text-1{
         margin-left: 6%;
-        margin-top: 10%;
+        margin-top: 5%;
         font-size: 9px;
     }
 
     #section-5__text-2{
+        margin-top: 5%;
         margin-left: 6%;
         font-size: 9px;
     }
@@ -708,10 +712,6 @@ body{
         margin-left: 5%;
     }
 
-    #img_story__first_pic-1, #img_story__first_pic-2{
-        margin-left: 10% !important;
-    }
-
     .img_story__label{
         font-size: 14px;
         margin-left: 5%;
@@ -773,10 +773,6 @@ body{
     .img_story{
         margin-left: 8% !important;
         width: 21%;
-    }
-
-    #img_story__first_pic-1,   #img_story__first_pic-2{
-        margin-left: 17%;
     }
 
     #black_hole{

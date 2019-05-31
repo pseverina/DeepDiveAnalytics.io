@@ -13,18 +13,26 @@
     <link rel="stylesheet" href="./css/products_and_services.css">
     <link rel="stylesheet" href="./css/lightbox.min.css">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/lightbox-plus-jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- Owl library -->
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 
     <!-- Add Social Media icons library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Link to JS-->
+    <script src="./js/products_and_services.js"></script>
 
     <!-- Mobile properties-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -104,80 +112,65 @@
         <hr id="hr_2">
         <!--  Second Section -->
         <h1 id="section-2__head"> Our work </h1>
-        <div id="Carousel" class="carousel slide" data-interval="false">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#Carousel" data-slide-to="1"></li>
-            <li data-target="#Carousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="img_story" id="first_item_in_slide"> 
-                            <a target="_blank" href="./img/services_img/capital_ investment.jpg" data-lightbox="img_story_1">
-                                <img src="./img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest">
-                                <h4 class="img_story__label"> Decision Support Tool for <br> Capital Investment</h4>
-                                <h5 class="img_story__label__2"> Technique: Optimization Modeling</h5>
-                                <h5 class="img_story__label__2"> Client: Confidential</h5>
-                                <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_1">
-                            </a>
-                        </div>
-                        <div class="img_story">
-                            <a target="_blank" href="./img/services_img/Inventory_Optimization.jpg" data-lightbox="img_story_2">
-                                <img src="./img/services_img_2/inventory_thumbnail.jpg" alt="inventory">
-                                <h4 class="img_story__label"> Inventory Optimization <br> Support Tool </h4>
-                                <h5 class="img_story__label__2"> Technique: NLP Optimization Modeling </h5>
-                                <h5 class="img_story__label__2"> Client: Confidential</h5>
-                                <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_2">
-                            </a>
-                        </div>
-                        <div class="img_story">
-                            <a target="_blank" href="./img/services_img/Materials_Harmonization.jpg" data-lightbox="img_story_3">
-                                <img src="./img/services_img_2/common_parts_thumbnail.png" alt="common_parts">
-                                <h4 class="img_story__label"> Material Hamonization <br> Matching Tool </h4>
-                                <h5 class="img_story__label__2"> Technique: Machine <br> Learning/Natural Language </h5>
-                                <h5 class="img_story__label__2"> Client: Confidential</h5>
-                                <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_3">
-                            </a>
-                        </div>
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img_story"> 
+                        <a target="_blank" href="./img/services_img/capital_ investment.jpg" data-lightbox="img_story_1">
+                            <img src="./img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest">
+                            <h4 class="img_story__label"> Decision Support Tool for Capital Investment</h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling</h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_1">
+                        </a>
                     </div>
-                    <div class="item">
-                        <div class="img_story" id="first_item_in_slide_2">
-                            <a target="_blank" href="img/services_img/Production_Scheduling.jpg" data-lightbox="img_story_4">
-                                <img src="./img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"> 
-                                <h4 class="img_story__label"> Production Scheduling <br> Planning Tool </h4>
-                                <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
-                                <h5 class="img_story__label__2"> Client: Confidential</h5>
-                                <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_4">
-                            </a>
-                        </div>
-                        <div class="img_story">
-                            <a target="_blank" href="./img/services_img/Radiology_Scheduling.jpg" data-lightbox="img_story_5"> 
-                                <img src="./img/services_img_2/rads_scheduling_thumbnail.jpg" alt="rads_scheduling"> 
-                                <h4 class="img_story__label"> Radiology Residency Scheduling Solution </h4>
-                                <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
-                                <h5 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h5>
-                                <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_5">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <h1 id="item_coming_up"> Things are coming shortly </h1>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#Carousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#Carousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
-            </div>        
+                <div class="item">
+                    <div class="img_story">
+                        <a target="_blank" href="./img/services_img/Inventory_Optimization.jpg" data-lightbox="img_story_2">
+                            <img src="./img/services_img_2/inventory_thumbnail.jpg" alt="inventory">
+                            <h4 class="img_story__label"> Inventory Optimization <br> Support Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: NLP Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_2">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_story">
+                        <a target="_blank" href="./img/services_img/Materials_Harmonization.jpg" data-lightbox="img_story_3">
+                            <img src="./img/services_img_2/common_parts_thumbnail.png" alt="common_parts">
+                            <h4 class="img_story__label"> Material Hamonization <br> Matching Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: Machine <br> Learning/Natural Language </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_3">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_story" id="first_item_in_slide_2">
+                        <a target="_blank" href="img/services_img/Production_Scheduling.jpg" data-lightbox="img_story_4">
+                            <img src="./img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"> 
+                            <h4 class="img_story__label"> Production Scheduling <br> Planning Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_4">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_story">
+                        <a target="_blank" href="./img/services_img/Radiology_Scheduling.jpg" data-lightbox="img_story_5"> 
+                            <img src="./img/services_img_2/rads_scheduling_thumbnail.jpg" alt="rads_scheduling"> 
+                            <h4 class="img_story__label"> Radiology Residency Scheduling Solution </h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h5>
+                            <img src="img/icons_img/arrow_green.png" alt="arrow" id="arrow_5">
+                        </a>
+                    </div>
+                </div>
+                <div class="item"><h4>6</h4></div>
+            </div>
+     
             <!--  Footer -->
             <footer class="font">
                 <div class="container-fluid"> 

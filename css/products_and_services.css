@@ -104,25 +104,12 @@
     opacity: 0.8;
 }
 
-#first_item_in_slide{
-    margin-left: 12%;
-}
-
-#first_item_in_slide_2{
-    margin-left: 25%;
-}
-
 .text{
     position: relative;
     z-index: 2;
     text-align: center;
     color:whitesmoke;
     font-size: 15px;
-}
-
-#Carousel{
-    height: 480px;
-    width: 100%;
 }
 
 #section-2__head {
@@ -135,11 +122,12 @@
     filter: grayscale(0%);
 }
 
+.item:first-child {
+    margin-left: 20%;
+}
+
 .img_story{
     background-color: #454746;
-    margin-top: 40px;
-    margin-left: 8%;
-    float: left;
     width: 260px;
     height: 360px;
     filter: grayscale(100%);
@@ -305,6 +293,10 @@
         width: 50%;
         height: 15%;
     }
+    
+    .item:first-child {
+        margin-left: 25%;
+    }
 
     .img_story{
         height: 160px;
@@ -338,11 +330,6 @@
         margin-left: 10%;
     }
 
-    #Carousel{
-        height: 270px;
-        width: 100%;
-    }
-
     #arrow_1, #arrow_2,  #arrow_4{
         margin-top: -30% !important;
         margin-left: -5% !important;
@@ -364,10 +351,6 @@
         width: 30px !important;
      }
 
-    #first_item_in_slide, #first_item_in_slide_2{
-        margin-left: 13%;
-    }
-
     .img_story__label{
         font-size: 7px;
         margin-top: 4%;
@@ -378,23 +361,6 @@
         font-size: 6px;
         margin-top: -10%;
         margin-left: 5%;
-    }
-
-    #item_coming_up{
-        text-align: center; 
-        color:  whitesmoke;
-    }
-
-    .glyphicon-chevron-left, .glyphicon-chevron-right{
-        font-size: 100%;
-    }
-
-    .carousel-indicators{
-        font-size: 10px;
-    }
-    
-    #item_coming_up{
-        font-size: 12px;
     }
 
     #footer_rights{
@@ -455,17 +421,11 @@
         font-size: 11px;
     }
 
-    #Carousel{
-        height: 400px;
-        width: 100%;
+    .item {
+        margin-left: 5%;
     }
-
-    #first_item_in_slide {
-        margin-left: 15%;
-    }
-
-    #first_item_in_slide_2{
-        margin-left: 27%;
+    .item:first-child {
+        margin-left: 20%;
     }
 
     .img_story{
@@ -522,6 +482,7 @@
         height: 40px !important;
         width: 50px !important;
      }
+
     .social-media{
         margin-left: 2%;
         margin-right: 0%;
