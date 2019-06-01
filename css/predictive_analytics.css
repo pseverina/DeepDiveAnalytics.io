@@ -29,16 +29,48 @@
     color:whitesmoke;
 }
 
+.magnify > .magnify-lens {
+    width: 100px;
+    height: 100px;
+	/* Hide the lens by default */
+	display: none;
+	/* Place the lens on top of other elements */
+	z-index: 100;
+	-moz-border-radius: 0%;
+	-webkit-border-radius: 0%;
+	border-radius: 50%;
+	/* Multiple box shadows to achieve the glass lens effect */
+	-moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.85),
+	0 0 0 0 rgba(0, 0, 0, 0.25),
+	inset 0 0 0 0 rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.85),
+	0 0 0 0 rgba(0, 0, 0, 0.25),
+	inset 0 0 0 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.85),
+	0 0 0 0 rgba(0, 0, 0, 0.25),
+	inset 0 0 0 0 rgba(0, 0, 0, 0.25);
+  }
+  
 #schema_1{
+    position: relative;
     margin-top:4%;
-    height: 400px;
+    height: 100%;
     width: 55%;
+    margin: auto;
+}
+
+#hr{
+    margin-top: 5%;
+    color:gray;
+    width: 80%;
 }
 
 #schema_2{
-    margin-top: 3%;
-    height: 50%;
-    width: 45%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: %;
+    height: 100%;
+    width: 85%;
 }
 
 #list__foooter ul{

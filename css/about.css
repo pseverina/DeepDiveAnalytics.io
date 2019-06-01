@@ -35,6 +35,14 @@ span{
     margin-right:20%;
 }
 
+.section-1__text_hidden{
+    float: left;
+    display: none;
+    font-size: 20px;
+    margin-top: 2%;
+    color: whitesmoke;
+}
+
 .section-1__text{
     font-size: 20px;
     margin-top: 2%;
@@ -82,7 +90,6 @@ span{
     display: inline-block;
     font-size: 20px;
 }
-
 
 /* Background */
 
