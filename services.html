@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title> DeepDiveAnalytics</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/services.css">
@@ -52,7 +51,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.html"> HOME <span class="sr-only">(current)</span></a></li>
                             <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> OUR WORK <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #58F86F !important;"> OUR WORK <span class="caret"></span></a>
                                 <ul class="dropdown-menu" style="background-color: black;">
                                 <li><a href="services.html" style="color: #58F86F !important; background: black;" >Suceess stories</a></li>
                                 <li role="separator" class="divider"></li>
@@ -73,31 +72,28 @@
         <div> 
             <h1 id="section-1__header"> Success Stories</h1>
             <hr id="hr_1">
-            <div id="section-1__header-2">
-                <h3> Filter by
-                    <div class="btn-group">
-                        <button class="btn btn-default dropdown-toggle" id="Technique" type="button" data-toggle="dropdown"> Technique 
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                            <li><a class="category_item" id="all" href="#"> ALL </a></li>
-                            <li><a class="category_item" id="OM" href="#"> Optimization Modeling</a></li>
-                            <li><a class="category_item" id="NLP" href="#"> NLP Optimization Modeling</a></li>
-                            <li><a class="category_item" id="ML" href="#"> Machine Learning</a></li>
-                        </ul>
-                    </div>
-                    <span> or </span>
-                    <div class="btn-group">
-                        <button class="btn btn-default dropdown-toggle" id="Industry" type="button" data-toggle="dropdown"> Industry
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                            <li><a class="category_item" id="all" href="#"> ALL </a></li>
-                            <li><a class="category_item" id="SCH" href="#"> Supply Chain</a></li>
-                            <li><a class="category_item" id="HC" href="#"> Healthcare</a></li>
-                        </ul>
-                    </div>
-                </h3> 
-
-            </div>
+            <div id="section-1__header-2"> Filter by
+                <div class="btn-group">
+                    <button class="btn btn-default dropdown-toggle" id="Technique" type="button" data-toggle="dropdown"> Technique 
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu" id="Technique_dropdown">
+                        <li><a class="category_item" id="all" href="#"> ALL </a></li>
+                        <li><a class="category_item" id="OM" href="#"> Optimization Modeling</a></li>
+                        <li><a class="category_item" id="NLP" href="#"> NLP Optimization Modeling</a></li>
+                        <li><a class="category_item" id="ML" href="#"> Machine Learning</a></li>
+                    </ul>
+                </div>
+                <span style="color: #c80096;"> or </span>
+                <div class="btn-group">
+                    <button class="btn btn-default dropdown-toggle" id="Industry" type="button" data-toggle="dropdown"> Industry
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu" id="Industry_dropdown">
+                        <li><a class="category_item" id="all" href="#"> ALL </a></li>
+                        <li><a class="category_item" id="SCH" href="#"> Supply Chain</a></li>
+                        <li><a class="category_item" id="HC" href="#"> Healthcare</a></li>
+                    </ul>
+                </div>
+            </div> 
             
             <div id="Carousel" class="carousel slide" data-interval="false">
                 <!-- Indicators -->

@@ -1,8 +1,10 @@
 body{
     height: 100%;
 }
+
 .font{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .navbar{
@@ -19,14 +21,14 @@ body{
 
 #dive_in{
     color: #58F86F ;
-    margin: 0% 45%;
+    margin: 0% 45% 0% 47%;
     width: 10%;
     font-size:14px;
 }
 
 #arrow_down{
     color: white;
-    margin: 0.5% 46% 5% 46%;
+    margin: 0.5% 44% 5% 48%;
     height: 15px;
 }
 
@@ -48,6 +50,7 @@ body{
 }
 
 #section-2__head{
+    font-size: 28px;
     color:whitesmoke;
     text-align: center;
 }
@@ -132,15 +135,17 @@ body{
 }
 
 #section-3__head__2{
-    margin-left: 5%;
+    font-size: 22px;
+    margin-left: 17%;
     color:whitesmoke;
     margin-top: 10%;
 }
 
 #section-4_head {
+    font-size: 30px;
+    margin-top: 15%;
     margin-left: 5%;
     color:whitesmoke;
-    margin-top: 10%;
 }
 
 #Carousel{
@@ -229,8 +234,9 @@ body{
 }
 
 #phrases{
-    margin-top: -7%;
+    margin-top: 10%;
     margin-left: 15%;
+    margin-bottom: 5%;
     text-align: center;
 }
 
@@ -252,6 +258,7 @@ body{
     color:grey;
 }
 #section-5__head{
+    font-size: 42px;
     color: whitesmoke;
     text-align: center;
     margin-top: 10%;
@@ -789,4 +796,137 @@ body{
         width: 30%;
     } 
 
+}
+
+@media only screen and (min-width: 1300px) and (min-height: 850px) and (max-width: 3200px) and (max-height: 1800px){
+    #dive_in{
+        font-size:35px;
+        margin: 0% 50%;
+    }
+    
+    #arrow_down{
+        color: white;
+        margin: 0.5% 48% 5% 51%;
+        height: 30px;
+    }
+
+    #section-2__head{
+        text-align: center;
+        margin-left: 5%;
+        font-size: 60px;
+    }
+
+    #section-2__pic_1{
+        margin-left: 16%;
+        width: 20%;
+    }
+    
+    #section-2__pic_2{
+        width: 20%;
+    }
+
+    #section-2__pic_3{
+        width: 20%;
+    }
+
+    #section-3__head{
+        font-size: 50px;
+    }
+
+    #Carousel{
+        min-height: 750px;
+    }
+
+    .img_story{
+        width: 22%;
+        height: 640px;
+    }
+
+    .img_story__label{
+        font-size: 40px;
+    }
+    
+    .img_story__label__2{
+        font-size: 36px;
+    }
+
+    #arrow_1{
+        margin-top: -5% !important;
+        margin-left: -5%;
+        width: 165px !important;
+        height: 170px !important;
+    }
+    
+    #arrow_2{
+        margin-top: -10% !important;
+        width: 165px !important;
+        height: 170px !important;
+        margin-left: -5%;
+    }
+    
+    #arrow_3{
+        margin-top: -10% !important;
+        width: 165px !important;
+        height: 170px !important;
+        margin-left: -5%;
+    }
+    
+    #arrow_4{
+        margin-top: -5% !important;
+        width: 165px !important;
+        height: 170px !important;
+        margin-left: -5%;
+    }
+    
+    #arrow_5{
+        margin-top: -10% !important;
+        width: 165px !important;
+        height: 170px !important;
+        margin-left: -5%;
+    }
+
+    #section-3__head__2{
+        font-size: 40px;
+    }
+
+    #section-4_head {
+        font-size: 60px;
+    }
+    
+    #phrases{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .quotes{
+        font-style: italic;
+        color:whitesmoke;
+        font-size: 38px;
+        display: none;
+    }
+
+    #section-5__head{
+        margin-top: 3%;
+        font-size: 65px;
+    }
+
+    #section-5__text-1, #section-5__text-2{
+        font-size: 60px;
+    }
+
+    #spaceman{
+        margin-top: -35%;
+        margin-right: 35% !important;
+        margin-left: 55% !important;
+        height: 30%;
+        width: 30%;
+    } 
+
+    #footer_rights{
+        font-size: 18px;
+    }
 }

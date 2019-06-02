@@ -34,14 +34,45 @@
 }
 
 #section-1__header-2{
+    font-size: 20px;
     text-align: center; 
 	color: whitesmoke;
 }
 
-#Technique, #Industry {
-    color: white !important;
+#Technique{
+    color:#58F86F !important;
     background-color: black !important;
 }
+#Technique_dropdown {
+    background-color: black !important; 
+}
+
+#Technique_dropdown > li > a{
+    color: whitesmoke !important; 
+}
+
+#Technique_dropdown > li > a:hover {
+    color: #58F86F !important;
+    background-color: black !important;  
+ }
+
+#Industry {
+    color: #0CA8FC !important;
+    background-color: black !important;
+}
+
+#Industry_dropdown{
+    background-color: black !important; 
+}
+
+#Industry_dropdown > li > a{
+    color: whitesmoke !important; 
+}
+
+#Industry_dropdown > li > a:hover {
+    color: #0CA8FC !important;
+    background-color: black !important;  
+ }
 
 #Carousel{
     height: 880px;
@@ -236,19 +267,19 @@
     height: 60%;
 }
 
- #img_3__label{
+#img_3__label{
     margin-left: 30px;
     padding-top: 15px;
     color: #d9d9d9;
  }
 
- #img_3__label__3{
+#img_3__label__3{
     margin-left: 30px;
     padding-top: 15px;
     color: #d9d9d9;
 }
 
- #img_story_4:hover {
+#img_story_4:hover {
     border: 2px solid #58F86F
 }
 
@@ -315,11 +346,12 @@
 
 #Carousel_2{
     height: 480px;
+    margin-top: 8%;
 }
 
 .quotes{
     margin-left: 25%;
-    margin-top: 8%;
+    margin-top: 2%;
     font-style: italic;
     color:whitesmoke;
     font-size: 20px;
@@ -344,7 +376,8 @@
 }
 
 .clients{ 
-    margin-top: -5%;
+    position: relative;
+    margin-top: 5%;
     height: 50%;
     width: 25%;   
 }
@@ -757,3 +790,123 @@
      }
 }
 
+/* Adjust for big screen ( 3200 x 1800) */
+@media only screen and (min-width: 1300px) and (min-height: 850px) and (max-width: 3200px) and (max-height: 1800px) {
+    #section-1__header{
+        padding-top:5%;
+        font-size: 62px;
+        text-align: center; 
+        color: whitesmoke;
+    }
+
+    #hr_1{
+        text-align: center; 
+        width: 14%; 
+        color:gray;
+    }  
+    
+    #section-1__header-2{
+        font-size: 44px;
+        text-align: center; 
+        color: whitesmoke;
+    }
+
+    #Technique, #Industry{
+        font-size: 34px !important; 
+    }
+
+    #Technique_dropdown, #Industry_dropdown{
+        font-size: 28px !important; 
+    }
+
+    #Carousel{
+        height: 1400px;
+        width: 100%;
+    }
+
+    .img_story{
+        height: 600px;
+        width: 500px;
+    }
+
+    .img_story__label{
+        font-size: 38px;
+    }
+
+    
+    .img_story__label__2{
+        font-size: 25px;
+    }
+
+    #arrow_1, #arrow_2, #arrow_4{
+        margin-top: -10% !important;
+        margin-left: -5%;
+        height: 160px !important;
+        width: 170px !important;
+     }
+
+    #arrow_3{
+        margin-top: -13% !important;
+        margin-left: -5%;
+        height: 160px !important;
+        width: 170px !important;
+    }
+
+    #arrow_5{
+        margin-left: -5%;
+        margin-top: -13% !important;
+        height: 160px !important;
+        width: 170px !important;
+     }
+
+    .carousel-inner > .item{
+        margin: auto;
+        width: 80%;
+    }
+
+    #section-3_head {
+        font-size: 62px;
+    }
+
+    #Carousel_2{
+        height: 600px;
+    }
+    
+    .quotes{
+        margin: auto;
+        margin-top: 2%;
+        font-style: italic;
+        color:whitesmoke;
+        font-size: 50px;
+        width: 65%;
+    }
+    
+    #phrases{
+        margin-top: -7%;
+        margin-left: 7%;
+        text-align: center;
+    }
+    
+    #section-4{
+        position: relative;
+        font-size: 48px;
+        margin-left: 5%;
+        color:whitesmoke;
+        margin-top: 10%;
+    }
+    
+    .clients{ 
+        position: relative;
+        margin-top: -5%;  
+    }
+    
+    .social-media{
+        width: 46px;
+        height: 46px;
+        font-size:43px;
+    }
+    
+    #footer_rights{
+        font-size: 30px;
+    }
+}
