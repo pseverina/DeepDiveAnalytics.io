@@ -21,6 +21,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/lightbox-plus-jquery.min.js"></script>
 
+    <!-- JS -->
+    <script src="./js/index.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
@@ -131,7 +134,7 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-                    <div class="item active">
+                    <div class="item active animated-thumbnials">
                         <div class="img_story"> 
                             <a target="_blank" href="./img/services_img/capital_ investment.jpg" data-lightbox="img_story_1">
                                 <img src="./img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest">
@@ -160,7 +163,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item animated-thumbnials">
                         <div class="img_story">
                             <a target="_blank" href="img/services_img/Production_Scheduling.jpg" data-lightbox="img_story_4">
                                 <img src="./img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"> 
@@ -196,7 +199,7 @@
                 </a>
             </div>
                 
-            <div>
+            <div id="clients_backend">
                 <div id="section-3__head__2"> Our clients </div>
                 <img class="clients" alt="client" src="img/cllients_img/jackson_health.jpg" style="margin-left: 25%;"> 
                 <img class="clients" alt="client_2" src="img/cllients_img/uhealth.jpg"> 
@@ -265,22 +268,4 @@
         </div>
     </div>	
 </body>
-  <script type="text/javascript">
-    (function() {
-    
-        var quotes = $(".quotes");
-        var quoteIndex = -1;
-    
-        function showNextQuote() {
-            ++quoteIndex;
-            quotes.eq(quoteIndex % quotes.length)
-                .fadeIn(2000)
-                .delay(2000)
-                .fadeOut(2000, showNextQuote);
-        }
-    
-        showNextQuote();
-    
-    })();
-    </script>
 </html>
