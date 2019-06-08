@@ -3,6 +3,7 @@ body{
 }
 .font{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .navbar{
@@ -60,10 +61,20 @@ body{
     height: 60%;
 }
 
+#button:hover{
+    color: #58F86F !important;
+}
+
 #right{
     float: right;
     margin-top: -30%;
-    margin-right: 30%;
+    margin-right: 20%;
+}
+
+#brand{
+    height: 200px;
+    width: 210px;
+    margin-bottom: 10px;
 }
 
 #list ul{
@@ -75,6 +86,10 @@ body{
     list-style-type: none;
     background-color: black;
     color: #f5f5f5 ;
+}
+
+#input__first-name, #input__last-name, #input__email, #input__textarea, #input__company{
+    color: #58F86F;
 }
 
 .social-media{

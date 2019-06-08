@@ -139,13 +139,13 @@ body{
     margin-left: 15%;
     color:whitesmoke;
     margin-top: 10%;
-    padding-top: 2%;
+    padding-top: 5%;
     width: 8%;
 }
 
 #section-4_head {
     font-size: 30px;
-    margin-top: 15%;
+    margin-top: 3%;
     margin-left: 5%;
     color:whitesmoke;
 }
@@ -229,13 +229,13 @@ body{
     color:  whitesmoke;
 }
 
-#clients_backend{
+#transparent_back{
     position: relative;
-    height: 100px;
+    height: 550px;
     z-index: 2;
 }
 
-#clients_backend:after{
+#transparent_back:after{
     content:'';
     position: absolute;
     top:0px;
@@ -249,13 +249,13 @@ body{
 }
 
 .clients{ 
-    margin-top: -3.5%;
-    height: 80%;
-    width: 25%;   
+    margin-top: -15%;
+    height: 400px;
+    width: 290px;   
 }
 
 #phrases{
-    margin-top: 10%;
+    margin-top: -5%;
     margin-left: 15%;
     margin-bottom: 5%;
     text-align: center;

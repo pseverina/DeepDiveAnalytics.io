@@ -1,5 +1,6 @@
 .font{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .navbar{
@@ -378,14 +379,14 @@
 }
 
 .clients{ 
-    margin-top: -3.5%;
-    height: 80%;
-    width: 25%;     
+    margin-top: -14%;
+    height: 400px;
+    width: 290px;       
 }
 
 #clients_backend{
     position: relative;
-    height: 100px;
+    height: 130px;
     z-index: 2;
 }
 
