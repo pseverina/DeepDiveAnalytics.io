@@ -135,17 +135,15 @@ body{
 }
 
 #section-3__head__2{
-    font-size: 22px;
-    margin-left: 15%;
+    font-size: 30px;
+    margin-left: 5%;
     color:whitesmoke;
-    margin-top: 10%;
     padding-top: 5%;
-    width: 8%;
+    width: 12%;
 }
 
 #section-4_head {
     font-size: 30px;
-    margin-top: 3%;
     margin-left: 5%;
     color:whitesmoke;
 }
@@ -231,7 +229,7 @@ body{
 
 #transparent_back{
     position: relative;
-    height: 550px;
+    height: 420px;
     z-index: 2;
 }
 
@@ -263,7 +261,7 @@ body{
 
 #quote{
     width:5%;
-    height: 5%;
+    height:3%;
 }
 
 .quotes{
