@@ -32,53 +32,46 @@ body{
     color:whitesmoke;
 }
 
-#section-1__h2{
-    position: relative;
-    float: left;
-    color:whitesmoke;
-    margin-left: 13%;
+#hr{
+   text-align: center; 
+   width: 14%; 
+   color:gray;
 }
 
-#form:after {
-    content:'';
-    position: absolute;
-    top:0px;
-    left: 0px;
-    width:105%;
-    height:105%;
-    z-index: -1;
-    background-color:#222222;
-    border: 1px solid black;
-    opacity: 0.8;
+#section-1__h2{
+    text-align: center;
+    position: relative;
+    color:whitesmoke;
+    z-index: 2;
 }
 
 #form{
     position: relative;
     z-index: 2;
     color: whitesmoke;
-    margin: 8% 60% 0% 5%;
-    width: 45%;
+    width: 100%;
     padding-left: 2%;
     padding-top: 3%;
-    height: 60%;
+}
+#form:after {
+    content:'';
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-color:#222222;
+    border: 1px solid black;
+    opacity: 0.8;
 }
 
 #form input, #form textarea{
     background-color: black;
 }
 
-#button{
-    margin-left: 40%;
-}
-
 #button:hover{
     color: #58F86F !important;
-}
-
-#right{
-    float: right;
-    margin-top: -30%;
-    margin-right: 20%;
 }
 
 #brand{
@@ -89,12 +82,9 @@ body{
 
 #list ul{
     position: relative;
-    margin-top:5%;
-    width: 100%;
-    height: 30%;
+    margin-top:15%;
     text-align: center;
     list-style-type: none;
-    background-color: black;
     color: #f5f5f5 ;
 }
 
@@ -162,4 +152,22 @@ body{
   -o-animation:move-twink-back 200s linear infinite;
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
+}
+
+/* Adjust to Cellphone Size*/
+
+@media only screen and (max-width: 480px){
+    #section-1__h1{
+        padding-top: 15%;
+    }
+
+    #hr{
+        width: 45%;
+    }   
+
+    #list ul{
+        margin-top: 10%;
+        padding: 0;
+    }
+
 }
