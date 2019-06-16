@@ -32,6 +32,12 @@ span{
     text-align: center;
 }
 
+#hr{
+    text-align: center; 
+    width: 12%; 
+    color:gray;
+}
+
 #text{
     margin-left:20%;
     margin-right:20%;
@@ -144,8 +150,13 @@ span{
     }
 
     #section-1__h1{
-        padding-top: 11%;
+        margin-top: 5%;
+        padding-top: 20%;
         font-size: 22px;
+    }
+
+    #hr{
+        width: 25%;
     }
 
     .section-1__text{
@@ -171,6 +182,7 @@ span{
     }
 
     #section-1__h1{
+        padding-top: 10%;
         font-size: 62px;
     }
 
