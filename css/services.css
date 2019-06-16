@@ -370,18 +370,15 @@
 }
 
 #section-4{
+    padding-top: 10%;
     font-size: 32px;
-    margin-left: 5%;
+    margin-left: 15%;
     color:whitesmoke;
-    margin-top: 10%;
-    padding-top: 2%;
-    width: 12%;
 }
 
 .clients{ 
-    margin-top: -15%;
-    height: 400px;
-    width: 290px;       
+    height: 120px;  
+    width: 350px;     
 }
 
 #clients_backend{

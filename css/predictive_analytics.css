@@ -98,7 +98,12 @@
     color: #f5f5f5 ;
 }
 
+#footer_rights{
+    display: inline-block;
+}
+
 .social-media{
+    display: inline-block;
     width: 36px;
     height: 36px;
     font-size:23px;

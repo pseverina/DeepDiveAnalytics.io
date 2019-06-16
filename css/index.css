@@ -135,16 +135,15 @@ body{
 }
 
 #section-3__head__2{
+    padding-top: 10%;
     font-size: 30px;
-    margin-left: 5%;
+    margin-left: 15%;
     color:whitesmoke;
-    padding-top: 5%;
-    width: 12%;
 }
 
 #section-4_head {
     font-size: 30px;
-    margin-left: 5%;
+    margin-left: 15%;
     color:whitesmoke;
 }
 
@@ -247,16 +246,9 @@ body{
 }
 
 .clients{ 
-    margin-top: -15%;
-    height: 400px;
-    width: 290px;   
-}
-
-#phrases{
-    margin-top: -5%;
-    margin-left: 15%;
-    margin-bottom: 5%;
-    text-align: center;
+    margin-top: 5%;
+    height: 20%;  
+    width: 40%;  
 }
 
 #quote{
@@ -265,6 +257,7 @@ body{
 }
 
 .quotes{
+    text-align: center;
     font-style: italic;
     color:whitesmoke;
     font-size: 18px;
@@ -272,10 +265,12 @@ body{
 }
 
 #hr_1{
-    margin-top: 10%;
-    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
     color:grey;
 }
+
 #section-5__head{
     font-size: 42px;
     color: whitesmoke;
@@ -283,18 +278,8 @@ body{
     margin-top: 10%;
 }
 
-#section-5__text-1{
-    margin-top: 3%;
-    width: 35%;
-    margin-left: 5%;
-    color:whitesmoke;
-    text-align: center;
-    font-size: 25px;
-}
-
-#section-5__text-2{
-    margin-top: 5%;
-    width: 35%;
+.section-5__text{
+    margin-top: 15%;
     margin-left: 5%;
     color:whitesmoke;
     text-align: center;
@@ -302,7 +287,7 @@ body{
 }
 
 #section-5_decisions{
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
 #list__foooter ul{
@@ -403,20 +388,18 @@ body{
 
 #black_hole{   
     position: relative;
-    height: 80%;
-    width: 35%;
-    right: 5%;
+    height: 100%;
+    width: 75%;
+    margin-left: 20%;
     z-index:1;
-    margin-left: 60%;
-    margin-top: -25%;
    -webkit-animation: rotation 20s infinite linear;
 }
 
 #spaceman{
-    position: relative;
-    height: 420px;
+    position:  relative;
+    height: 220px;
     margin-top: -35%;
-    margin-left: 65%;
+    margin-left: 55%;
     z-index:2;
 }
 
@@ -476,7 +459,7 @@ body{
     #section-2__head{
         font-size: 15px;
     }
-
+    
     #dive_in{
         font-size:10px;
     }
@@ -587,10 +570,6 @@ body{
         font-size: 8px;
     }
 
-    .clients{
-        margin-top: -15%;
-    }
-
     #section-5__head{
         margin-top: 15%;
         font-size: 13px;
@@ -611,20 +590,6 @@ body{
         margin-top: 5%;
         margin-left: 6%;
         font-size: 9px;
-    }
-   
-    #black_hole{
-        margin-top: -35%;
-        margin-right: 10%;
-        height: 20%;
-        width: 30%;
-    }
-
-    #spaceman{
-        margin-top: -35%;
-        margin-right: 25%;
-        height: 20%;
-        width: 30%;
     }
 
     #footer_rights{
@@ -715,20 +680,6 @@ body{
         width: 40px !important;
      }
 
-
-    #black_hole{
-        margin-top: -50%;
-        margin-right: 8%;
-        height: 30%;
-        width: 45%;
-    }
-
-    #spaceman{
-        margin-top: -50%;
-        margin-right: 25%;
-        height: 30%;
-        width: 30%;
-    } 
 }
 
 /* Adjust to Ipad Size*/
@@ -761,9 +712,6 @@ body{
         width: 50%;
     }
 
-    .clients{
-        margin-top: -10%;
-    }
 
     #section-2__head , #section-3__head, #section-3__head__2, #section-4_head, #section-5__head{
         font-size: 25px;
@@ -773,20 +721,7 @@ body{
         margin-left: 5%;
         font-size: 15px;
     }
-    
-    #black_hole{
-        margin-top: -40%;
-        margin-right: 10%;
-        height: 25%;
-        width: 35%;
-    }
-
-    #spaceman{
-        margin-top: -40%;
-        margin-right: 25%;
-        height: 30%;
-        width: 30%;
-    }    
+     
 }
 
 /* Adjust to Ipad ProSize*/
@@ -800,20 +735,6 @@ body{
         margin-left: 8% !important;
         width: 21%;
     }
-
-    #black_hole{
-        margin-top: -30%;
-        margin-right: 10%;
-        height: 25%;
-        width: 35%;
-    }
-
-    #spaceman{
-        margin-top: -30%;
-        margin-right: 30%;
-        height: 30%;
-        width: 30%;
-    } 
 
 }
 
@@ -911,16 +832,7 @@ body{
     #section-4_head {
         font-size: 60px;
     }
-    
-    #phrases{
-        width: 60%;
-        margin-top: 5%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-        text-align: center;
-    }
-    
+
     .quotes{
         font-style: italic;
         color:whitesmoke;
@@ -936,14 +848,6 @@ body{
     #section-5__text-1, #section-5__text-2{
         font-size: 60px;
     }
-
-    #spaceman{
-        margin-top: -35%;
-        margin-right: 35% !important;
-        margin-left: 55% !important;
-        height: 30%;
-        width: 30%;
-    } 
 
     #footer_rights{
         font-size: 18px;
