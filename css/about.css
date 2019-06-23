@@ -14,6 +14,15 @@
     color: #58F86F !important;
 }
 
+.navbar.change{
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: all ease .5s;
+}
+
+.navbar.change:hover{
+   background-color: #000;
+}
+
 #logo_brand{
     margin-top: -10px;
     margin-left: 10px; 

@@ -10,8 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     
+    <!-- Add Social Media icons library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -22,14 +25,12 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <!-- Add Social Media icons library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS-->
+    <script src="../js/contact.js"></script>
 
-    <!-- Mobile properties -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
   <body>
-    <div class="stars font">
+    <div class="stars font page_header_theme_dark">
         <div class="twinkling">
         <!-- Menu bar-->
         <header id="header" class="font">
@@ -40,7 +41,7 @@
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
                     data-target="#navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> 
                     <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <a class="navbar-brand" href="index.html"><img src="./img/logo_img/helmet.png" alt="logo" id="logo_brand"></a>
+                    <a class="navbar-brand" href="index.html"><img src="../img/logo_img/helmet.png" alt="logo" id="logo_brand"></a>
                     </div>
         
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -52,7 +53,7 @@
                                 <li><a href="services.html" style="color:whitesmoke; background: black;" >Suceess stories</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li style="color:darkgrey; margin-left: 2%;"> Skillset </li>
-                                <li><a href="#" style="color:whitesmoke; background: black;"> Prescriptive Analytics</a></li>
+                                <li><a href="prescriptive_analytics.html" style="color:whitesmoke; background: black;"> Prescriptive Analytics</a></li>
                                 <li><a href="predictive_analytics.html" style="color:whitesmoke; background: black;"> Predictive Analytics</a></li>
                                 </ul></li>
                             <li><a href="products_services.html"> PRODUCTS & SERVICES</a></li>
@@ -64,22 +65,20 @@
             </nav> 
         </header> 
       <!--  First Section -->
-      <div class="container">
+      <div class="container"> 
           <h1 id="section-1__h1"> Contact Us</h1>
           <hr id="hr">
           <div class="row">
               <div class="col col-lg-6">
-                <form id="form">
+                <form class="form">
                     <h2 id="section-1__h2"> Let's go on this journey together! </h2>
-                    <div class="form-row required">
-                        <div class="form-group col-md-6" >
-                            <label for="input__first-name">First Name</label>
-                            <input type="text" class="form-control" id="input__first-name" class="input-color" placeholder="First Name"  required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="input__last-name">Last Name</label>
-                            <input type="text" class="form-control" id="input__last-name" class="input-color" placeholder="Last Name" required>
-                        </div>
+                    <div class="form-group col-md-6" >
+                        <label for="input__first-name">First Name</label>
+                        <input type="text" class="form-control" id="input__first-name" class="input-color" placeholder="First Name"  required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="input__last-name">Last Name</label>
+                        <input type="text" class="form-control" id="input__last-name" class="input-color" placeholder="Last Name" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="input__email">Email</label>
@@ -101,21 +100,19 @@
               <div class="col">
                 <div id="list">
                     <ul>
-                        <img src="./img/logo_img/helmet.png" alt="logo" id="brand">
+                        <img src="../img/logo_img/helmet.png" alt="logo" id="brand">
                         <li><span class="glyphicon glyphicon-envelope"></span>  contact@deepdiveanalytics.io</li>
                         <li class="social-media"><a href="https://www.facebook.com/deepdiveanalytics.io"><i class="fa fa-facebook"></i></a> </li>
                         <li class="social-media"><a href="https://www.linkedin.com/company/deepdiveanalytics"><i class="fa fa-linkedin-square"></i></a></li>
-                        <li class="social-media"><a href=""><i class="fa fa-twitter-square"></i></a></li>
+                        <li class="social-media"><a href="https://twitter.com/deepdiveAI"><i class="fa fa-twitter-square"></i></a></li>
                     </ul>
                 </div>
             </div>
           </div>
       </div>
         <!--  Footer -->
-        <footer>
-            <div id="footer_rights">
-                © Deep Dive Analytics. 2019 All Rights Reserved
-            </div>
+        <footer id="footer_rights">
+            © Deep Dive Analytics. 2019 All Rights Reserved
         </footer> 
         </div>
      </div>

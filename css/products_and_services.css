@@ -15,6 +15,15 @@
     color: #58F86F !important;
 }
 
+.navbar.change{
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: all ease .5s;
+}
+
+.navbar.change:hover{
+   background-color: #000;
+}
+
 #logo_brand{
     margin-top: -10px;
     margin-left: 10px; 
@@ -118,13 +127,23 @@
     color:whitesmoke;
 }
 
+.owl-dot{
+    display: none !important;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    margin-top: 10px;
+    color:whitesmoke;
+    font-size: 18px;
+}
+
 .img_story:hover {
     border: 2px solid #58F86F;
     filter: grayscale(0%);
 }
 
 .item:first-child {
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .img_story{

@@ -19,6 +19,15 @@ body{
     color: #58F86F !important;
 }
 
+.navbar.change{
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: all ease .5s;
+}
+
+.navbar.change:hover{
+   background-color: #000;
+}
+
 #dive_in{
     color: #58F86F ;
     margin: 0% 45% 0% 47%;
@@ -147,9 +156,18 @@ body{
     color:whitesmoke;
 }
 
-#Carousel{
-    min-height: 450px;
-    width: 100%;
+.owl-carousel{
+    margin-bottom: 7%;
+}
+
+.owl-dot{
+    display: none !important;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    margin-top: 10px;
+    color:whitesmoke;
+    font-size: 18px;
 }
 
 .img_story:hover {
@@ -157,25 +175,25 @@ body{
     filter: grayscale(0%);
 }
 
+.item:first-child {
+    margin-left: 10%;
+}
+
 .img_story{
     background-color: #454746;
     margin-top: 40px;
-    margin-left: 8%;
+    margin-left: 10%;
     float: left;
-    width: 22%;
-    height: 340px;
+    width: 260px;
+    height: 360px;
     filter: grayscale(100%);
     transition: 0.5s;
+    
 }
 
 .img_story img {
     width: 100%;
     height: 55%;
-}
-
-.carousel-inner {
-    margin: 0% 12% 5% 12%;
-    width: 80% !important;
 }
   
 .img_story__label{
@@ -292,7 +310,7 @@ body{
 
 #list__foooter ul{
     position: relative;
-    margin-top:8%;
+    margin-top:5%;
     width: 100%;
     height: 30%;
     text-align: center;
@@ -493,15 +511,6 @@ body{
         font-size: 9px;
     }
 
-    #Carousel{
-        margin-top: 5%;
-        height: 250px;
-    }
-
-   .glyphicon-chevron-left, .glyphicon-chevron-right{
-       font-size: 15px !important;
-   }
-
     .item{
         margin-left: 8%;
         margin-top: 5%;
@@ -532,6 +541,7 @@ body{
         margin-left: 5%;
         margin-bottom: 0%;
     }
+
     #arrow_1, #arrow_4 {
         margin-left: -5%;
         margin-top: -10% !important;
@@ -621,10 +631,6 @@ body{
     #dive_in{
         font-size: 10px;
         width: 15%;
-    }
-
-    .glyphicon-chevron-left, .glyphicon-chevron-right{
-        font-size: 12px !important;
     }
 
     .img_story{
@@ -771,10 +777,6 @@ body{
 
     #section-3__head{
         font-size: 50px;
-    }
-
-    #Carousel{
-        min-height: 750px;
     }
 
     .img_story{

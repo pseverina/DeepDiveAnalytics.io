@@ -18,6 +18,15 @@ body{
     color: #58F86F !important;
 }
 
+.navbar.change{
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: all ease .5s;
+}
+
+.navbar.change:hover{
+   background-color: #000;
+}
+
 #logo_brand{
     margin-top: -10px;
     margin-left: 10px; 
@@ -44,9 +53,9 @@ body{
     z-index: 2;
 }
 
-#form{
+.form{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     color: whitesmoke;
     width: 100%;
     height:100%;
@@ -54,7 +63,21 @@ body{
     padding-top: 3%;
 }
 
-#form input, #form textarea{
+.form:after {
+    content:'';
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-color:#222222;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+
+.form input, .form textarea{
     background-color: black;
 }
 
@@ -66,6 +89,10 @@ body{
     height: 200px;
     width: 210px;
     margin-bottom: 10px;
+}
+
+.glyphicon-envelope{
+    color:#23527c;
 }
 
 #list ul{
@@ -98,7 +125,7 @@ body{
 
 #footer_rights{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     color: whitesmoke;
     font-size: 22px;
 }
