@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
 
+    <!-- Add Social Media icons library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="../css/lightbox.min.css">
@@ -19,16 +22,15 @@
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/lightbox-plus-jquery.min.js"></script>
-
-    <!-- Javascript -->
-    <script src="../js/services.js"> </script>
+    <script src="../js/fancybox/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <!-- Add Social Media icons library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Javascript -->
+    <script src="../js/services.js"> </script>
   </head>
 <body>
     <div class="stars font">
@@ -65,7 +67,6 @@
                 </div>
             </nav> 
         </header> 
-
         <!--  First Section -->
         <h1 id="section-1__header"> Success Stories</h1>
         <hr id="hr_1">
@@ -102,49 +103,49 @@
             <div class="carousel-inner">
                 <div class="item active">
                     <div class="img_story OM SCH"> 
-                        <a target="_blank" href="../img/services_img/capital_ investment.jpg" data-lightbox="img_story_2">
-                            <img src="../img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest">
+                        <a data-fancybox="SCH" target="_blank" href="../img/services_img/capital_ investment.jpg">
+                            <img src="../img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest"/>
+                            <h4 class="img_story__label"> Decision Support Tool for <br> Capital Investment</h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling</h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_1"/>
                         </a>
-                        <h4 class="img_story__label"> Decision Support Tool for <br> Capital Investment</h4>
-                        <h5 class="img_story__label__2"> Technique: Optimization Modeling</h5>
-                        <h5 class="img_story__label__2"> Client: Confidential</h5>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_1">
                     </div>
                     <div class="img_story NLP SCH">
-                        <a target="_blank" href="./img/services_img/Inventory_Optimization.jpg" data-lightbox="img_story_2">
-                            <img src="../img/services_img_2/inventory_thumbnail.jpg" alt="inventory">
+                        <a data-fancybox="SCH" target="_blank" href="../img/services_img/Inventory_Optimization.jpg">
+                            <img src="../img/services_img_2/inventory_thumbnail.jpg" alt="inventory"/>
+                            <h4 class="img_story__label"> Inventory Optimization <br> Support Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: NLP Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_2"/>
                         </a>
-                        <h4 class="img_story__label"> Inventory Optimization <br> Support Tool </h4>
-                        <h5 class="img_story__label__2"> Technique: NLP Optimization Modeling </h5>
-                        <h5 class="img_story__label__2"> Client: Confidential</h5>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_2">
                     </div>
                     <div class="img_story ML SCH">
-                        <a target="_blank" href="./img/services_img/Materials_Harmonization.jpg" data-lightbox="img_story_1">
-                            <img src="../img/services_img_2/common_parts_thumbnail.png" alt="common_parts">
+                        <a data-fancybox="SCH" target="_blank" href="../img/services_img/Materials_Harmonization.jpg">
+                            <img src="../img/services_img_2/common_parts_thumbnail.png" alt="common_parts"/>
+                            <h4 class="img_story__label"> Material Hamonization <br> Matching Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: Machine <br> Learning/Natural Language </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_3"/>
                         </a>
-                        <h4 class="img_story__label"> Material Hamonization <br> Matching Tool </h4>
-                        <h5 class="img_story__label__2"> Technique: Machine <br> Learning/Natural Language </h5>
-                        <h5 class="img_story__label__2"> Client: Confidential</h5>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_3">
                     </div>
                     <div class="img_story OM SCH"> 
-                        <a target="_blank" href="img/services_img/Production_Scheduling.jpg" data-lightbox="img_story_2">
-                            <img src="../img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"> 
+                        <a data-fancybox="SCH" target="_blank" href="../img/services_img/Production_Scheduling.jpg">
+                            <img src="../img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"/> 
+                            <h4 class="img_story__label"> Production Scheduling <br> Planning Tool </h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: Confidential</h5>
+                            <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_4"/>
                         </a>
-                        <h4 class="img_story__label"> Production Scheduling <br> Planning Tool </h4>
-                        <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
-                        <h5 class="img_story__label__2"> Client: Confidential</h5>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_4">
                     </div>
                     <div class="img_story OM HC">
-                        <a target="_blank" href="./img/services_img/Radiology_Scheduling.jpg" data-lightbox="img_story_1"> 
-                            <img src="../img/services_img_2/rads_scheduling_thumbnail.jpg" alt="rads_scheduling"> 
+                        <a data-fancybox="HC" target="_blank" href="../img/services_img/Radiology_Scheduling.jpg"> 
+                            <img src="../img/services_img_2/rads_scheduling_thumbnail.jpg" alt="rads_scheduling"/>
+                            <h4 class="img_story__label"> Radiology Residency Scheduling Solution </h4>
+                            <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                            <h5 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h5>
+                            <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_5"/> 
                         </a>
-                        <h4 class="img_story__label"> Radiology Residency Scheduling Solution </h4>
-                        <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
-                        <h5 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h5>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_5">
                     </div>
                 </div>
 
@@ -183,24 +184,24 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class="quotes">
-                                <img id="quote" alt="quote" src="../img/icons_img/quotation.svg">
-                                “More of these data-driven projects should take place throughout J&J” <br>             ​
-                                - Everyone , President at Company Name 1 !
+                            <img id="quote" alt="quote" src="../img/icons_img/quotation.svg"/>
+                            “More of these data-driven projects should take place throughout J&J” <br>             ​
+                            - Everyone , President at Company Name 1 !
                         </div>
                         <div class="quotes">
-                                <img id="quote" alt="quote" src="../img/icons_img/quotation.svg">
+                            <img id="quote" alt="quote" src="../img/icons_img/quotation.svg"/>
                             “More of these data-driven projects should take place throughout J&J” <br>             ​
                             - Everyone , President at Company Name 2!
                         </div> 
                     </div>
                     <div class="item">
                         <div class="quotes">
-                                <img id="quote" alt="quote" src="../img/icons_img/quotation.svg">
-                                “More of these data-driven projects should take place throughout J&J” <br>             ​
-                                - Everyone , President at Company Name 1 !
+                            <img id="quote" alt="quote" src="../img/icons_img/quotation.svg"/>
+                            “More of these data-driven projects should take place throughout J&J” <br>             ​
+                            - Everyone , President at Company Name 1 !
                         </div>
                         <div class="quotes">
-                                <img id="quote" alt="quote" src="../img/icons_img/quotation.svg">
+                            <img id="quote" alt="quote" src="../img/icons_img/quotation.svg"/>
                             “More of these data-driven projects should take place throughout J&J” <br>             ​
                             - Everyone , President at Company Name 2!
                         </div> 
@@ -225,8 +226,8 @@
                     </div>
                     <div class="col-sm-8">
                         <div id="section-4__clients">
-                            <img class="clients" alt="client" src="../img/cllients_img/jackson_health.png"> 
-                            <img class="clients" alt="client_2" src="../img/cllients_img/uhealth.png"> 
+                            <img class="clients" alt="client" src="../img/cllients_img/jackson_health.png"/> 
+                            <img class="clients" alt="client_2" src="../img/cllients_img/uhealth.png"/> 
                         </div>
                     </div>
                 </div>

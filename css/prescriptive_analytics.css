@@ -37,11 +37,11 @@
   color:gray;
 }
 
-#pic_1{
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
-  height: 25%;
+#schema{
+  margin: auto 30%;
+  width: 550px;
+  height: 500px;
+  cursor: pointer;
 }
 
 #list__foooter ul{
