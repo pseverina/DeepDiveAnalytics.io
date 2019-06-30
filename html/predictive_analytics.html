@@ -16,12 +16,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/predictive_analytics.css">
+    <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.min.css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/fancybox/jquery.fancybox.min.js"></script>
     
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -30,7 +32,7 @@
     <script src="../js/predictive_analytics.js"></script>
   </head>
   <body>
-    <div class="stars font">
+    <div class="container-fluid stars font">
         <div class="twinkling">
             <!-- Menu bar-->
             <header id="header">
@@ -53,6 +55,7 @@
                                     <li style="color:darkgrey; margin-left: 2%;"> Skillset </li>
                                     <li><a href="prescriptive_analytics.html" style="background: black;"> Prescriptive Analytics</a></li>
                                     <li><a href="predictive_analytics.html" style="color: #58F86F !important; background: black;"> Predictive Analytics</a></li>
+                                    <li><a href=" custom_solution_deployment.html" style="color:whitesmoke; background: black;"> Custom Solution Deployment</a></li>
                                 </ul>
                                 <li><a href="products_services.html"> PRODUCTS & SERVICES</a></li>
                                 <li><a href="about.html" >ABOUT</a></li>
@@ -64,13 +67,13 @@
             </header> 
             <!--  First Section -->
             <div class="center">
-                <div id="section-1__header"> Predictive Analytics </div>
+                <div id="section-1__header">Predictive Analytics</div>
                 <hr id="hr_1">
                 <div id="section-1__header-2"> What is the difference between AI,
                     Machine Learning, & Deep Learning ?</div>
-                <div id="schema_1">
-                    <img id="schema_1" alt="schema" src="../img/pred_analytics/AI_subsets.png" class='small' >
-                </div>
+                <a data-fancybox="gallery" id="schema_1" href="../img/pred_analytics/AI_subsets.png">
+                    <img id="schema_1" alt="schema" src="../img/pred_analytics/AI_subsets_black.png"/>
+                </a>
                 <div id="section-1__header-3"> Artificial Intelligence, Machine Learning,& Deep Learning are nested subsets <br>
                     of each other, as deplicated in the diagram above.
                 </div>
@@ -81,9 +84,9 @@
                 Machine Learning is the most promising <br>
                 tool in the AI category for businesses.
             </div>
-            <div id="schema_2">
-                <img id="schema_2" alt="schema_2" src="../img/pred_analytics/machine_learning.png">
-            </div>
+            <a data-fancybox="gallery" id="schema_2" href="../img/pred_analytics/machine_learning.png">
+                <img id="schema_2" alt="schema_2" src="../img/pred_analytics/machine_learning_black.png"/>
+            </a>
             <!--  Footer -->
             <footer>
                 <ul>

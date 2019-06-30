@@ -16,12 +16,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/prescriptive_analytics.css">
+    <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.min.css">
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -30,7 +32,7 @@
      <script src="../js/prescriptive_analytics.js"></script>
   </head>
   <body>
-    <div class="stars font">
+    <div class="container-fluid stars font">
         <div class="twinkling">
             <!-- Menu bar-->
             <header id="header" class="font">
@@ -53,6 +55,7 @@
                                 <li style="color:darkgrey; margin-left: 2%;"> Skillset </li>
                                 <li><a href="prescriptive_analytics.html" style="color:#58F86F !important; background: black;"> Prescriptive Analytics</a></li>
                                 <li><a href="predictive_analytics.html" style="color:whitesmoke; background: black;"> Predictive Analytics</a></li>
+                                <li><a href=" custom_solution_deployment.html" style="color:whitesmoke; background: black;"> Custom Solution Deployment</a></li>
                             </ul>
                             <li><a href="products_services.html"> PRODUCTS & SERVICES</a></li>
                             <li><a href="about.html">ABOUT</a></li>
@@ -65,8 +68,20 @@
             <!--  First Section -->
             <div id="section-1__header"> Prescriptive Analytics </div>
             <hr id="hr_1">
-            <img id="schema" alt="schema" src="../img/pres_analytics/prescriptive_modeling_1.png"/>
-           
+            <div id="section-1__header-2">Given what's happened / what we think will happen,<br> what is the best action to take?</div>
+            <a data-fancybox="gallery" target="_blank" href="../img/pres_analytics/prescriptive_modeling_1.png">
+                <img alt="schema_1" id="schema_1" src="../img/pres_analytics/prescriptive_modeling_1.png"/>
+            </a>
+            <div id="section-2__header">Optimization Mathematical Modeling <br>solves complex problems the human mind cannot​</div>
+            <a data-fancybox="gallery" target="_blank" href="../img/pres_analytics/or_1.png">
+                <img alt="schema_2" id="schema_2" src="../img/pres_analytics/or_1.png"/>
+            </a>
+            <div id="section-2__header-text">
+                A&nbsp;custom mathematical algorithm is&nbsp;built to&nbsp;represent the problem at&nbsp;hand, 
+                considering all unique requirements and objectives. The algorithm generates millions of&nbsp;all 
+                possible solutions, narrowing down the possibilities that satisfy constraints, ultimately 
+                identifying the optimal solution.
+            </div>
             <!--  Footer -->
             <footer>
                 <ul>

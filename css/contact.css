@@ -107,6 +107,10 @@ body{
     color: #58F86F;
 }
 
+#contact-font-size{
+    font-size: 18px;
+}
+
 .social-media{
     display: inline-block;
     width: 36px;

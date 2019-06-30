@@ -126,33 +126,11 @@
     color:  whitesmoke;
 }
 
-#arrow_1{
-    margin-top: -5% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_2{
-    margin-top: -10% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_3{
-    margin-top: -10% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_4{
-    margin-top: -5% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_5{
-    margin-top: -10% !important;
-    width: 65px !important;
+.arrow{
+    position: absolute;
+    z-index: -2;
+    margin-top: -10%;
+    width: 75px !important;
     height: 70px !important;
 }
 
@@ -387,8 +365,9 @@
 }
 
 .clients{ 
-    height: 120px;  
-    width: 350px;     
+    margin-top: 2%;
+    height: 30%;  
+    width: 40%;     
 }
 
 #clients_backend{
@@ -413,7 +392,7 @@
 footer ul{
     position: relative;
     margin-top:8%;
-    width: 100%;
+    width: 90%;
     height: 30%;
     text-align: center;
     list-style-type: none;
@@ -460,12 +439,30 @@ footer ul{
         height: 200px;
     }
 
+    .arrow{
+        margin-left: -5%;
+        margin-top: -20%;
+        height: 60px !important;
+        width: 50px !important;
+    }
+
     #Carousel{
         height: 530px;
     }
 
     .item{
         margin-left: 6%;
+    }
+
+    .img_story{
+        width: 90px;
+        height: 180px;
+    }
+
+    .arrow{
+        margin-top: -12%;
+        width: 45px !important;
+        height: 35px !important;
     }
 
     .img_story__label{
@@ -490,34 +487,19 @@ footer ul{
          font-size: 15px;
      }
 
-     #arrow_1, #arrow_4 {
-        margin-left: -5%;
-        margin-top: -10% !important;
-        height: 40px !important;
-        width: 50px !important;
-     }
-
-     #arrow_2, #arrow_3{
-        margin-left: -5%;
-        height: 40px !important;
-        width: 50px !important;
-     }
-
-     #arrow_5{
-        margin-left: -5%;
-        margin-top: -15% !important;
-        height: 40px !important;
-        width: 50px !important;
-     }
-
      .img_story:hover {
         border: 2px solid #58F86F;
         filter: grayscale(0%);
     }
 
-    #section-3_head, #section-4 {
+    #section-3_head{
         font-size:20px;
         margin-top: 10%;
+    }
+
+    #section-4 {
+        font-size:16px;
+        margin-left: 5%;
     }
 
     #Carousel_2{
@@ -531,13 +513,15 @@ footer ul{
         width: 80%;
     }
 
-    #section-4__clients{
-        margin-top: -6.5%;
-        margin-left: 15%;
+    .clients{
+        margin-left: 5%;
+        margin-top: 5%;
+        height: 30%;
+        width: 40%;
     }
 
     #footer_rights{
-        font-size: 8px;
+        display: none;
     }
 
     .social-media{
@@ -548,8 +532,65 @@ footer ul{
     }
 }
 
+/* Adjust to Cellphone Size ( landscape) */
+@media only screen and (max-width: 736px) and (min-height: 319px) and (max-height: 415px) and (-webkit-min-device-pixel-ratio: 2){
+    #Carousel{
+        height: 750px; 
+    }
+    
+    .img_story{
+        margin-left: 6%;
+        width: 160px;
+        height: 300px;
+    }
+
+    .img_story__label{
+        margin-left: 5%;
+        font-size: 12px;
+    }
+
+    .img_story__label__2{
+        margin-left: 5%;
+        font-size: 10px;
+    }
+
+    .arrow{
+        margin-left: -5%;
+        margin-top: -18%;
+        width: 60px;
+        height: 50px;
+    }
+
+    .quotes{
+        margin: 5% auto;
+        width: 75%;
+    }
+
+    #section-4{
+        margin-left: 5%;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+
+    .clients{
+        margin-left: 5%;
+    }
+
+    #clients_backend{
+        height: 160px;
+    }
+
+    #footer_rights{
+        display: none;
+    }
+} 
+
 /* Adjust to Cellphone Size ( iPhone 5, 5S, 5C and 5SE ) */
 @media only screen and (width: 320px) and (height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #section-1__header{
+        padding-top: 15%;
+    }
+
     .img_story{
         width: 85px;
         margin-left: 2%;
@@ -562,21 +603,35 @@ footer ul{
         margin-top: 5%;
         margin-bottom: 5%;
     }
+}
 
+/* Adjust to Cellphone Landscape Size ( iPhone 5, 5S, 5C and 5SE ) */
+@media only screen and (width: 568px) and (height: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    #section-1__header{
+        padding-top: 15%;
+    }
 
-    #arrow_3{
-        margin-left: -10%;
-        margin-top: -16% !important;
-        height: 40px !important;
-        width: 50px !important;
-     }
+    #Carousel{
+        height: 600px;
+    }
 
-     #arrow_5{
-        margin-left: -8%;
-        margin-top: -20% !important;
-        height: 40px !important;
-        width: 50px !important;
-     }
+    .img_story{
+        width: 130px;
+        margin-left: 7%;
+        height: 230px;
+    }
+    
+    .img_story__label{
+        font-size: 7px;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .arrow{
+        width: 40px !important;
+        height: 50px !important;
+    }
 }
 
 /* Adjust to Cellphone Size (Pixel 2, Pixel 2 XL, IPhone 6/7/8 Plus) */
@@ -605,6 +660,12 @@ footer ul{
         margin-left: 10%;
     }
 
+    .arrow{
+        margin-top: -12%;
+        width: 45px !important;
+        height: 35px !important;
+    }
+
     .img_story__label{
         font-size: 8px;
         margin-left: 5%;
@@ -625,26 +686,6 @@ footer ul{
 
     .glyphicon-chevron-left, .glyphicon-chevron-right{
          font-size: 15px;
-     }
-
-     #arrow_1, #arrow_4 {
-        margin-left: -5%;
-        margin-top: -10% !important;
-        height: 40px !important;
-        width: 50px !important;
-     }
-
-     #arrow_2, #arrow_3{
-        margin-left: -5%;
-        height: 40px !important;
-        width: 50px !important;
-     }
-
-     #arrow_5{
-        margin-left: -5%;
-        margin-top: -15% !important;
-        height: 40px !important;
-        width: 50px !important;
      }
 
      .img_story:hover {
@@ -668,13 +709,18 @@ footer ul{
         width: 80%;
     }
 
+    #section-4{
+        margin-left: 5%;
+        margin-top: -5%;
+    }
+
     #section-4__clients{
-        margin-top: -6.5%;
-        margin-left: 15%;
+        margin-top: 5%;
+        margin-left: 10%;
     }
 
     #footer_rights{
-        font-size: 8px;
+        display: none;
     }
 
     .social-media{
@@ -726,20 +772,6 @@ footer ul{
         color: #d9d9d9;
     }
 
-    #arrow_1, #arrow_2, #arrow_3, #arrow_4{
-        margin-top: -5% !important;
-        margin-left: 3%;
-        height: 50px !important;
-        width: 60px !important;
-     }
-
-     #arrow_5{
-        margin-left: 3%;
-        margin-top: -10% !important;
-        height: 50px !important;
-        width: 60px !important;
-     }
-
      #Carousel_2{
          margin-top: -10%;
         height: 480px;
@@ -759,7 +791,7 @@ footer ul{
 
     #section-4__clients{
         margin-left: 5%;
-        margin-top: -2%;
+        margin-top: 3%;
     }
 
     #footer_rights{
@@ -774,7 +806,7 @@ footer ul{
     }
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 834px) and (max-width: 1367px) and (-webkit-min-device-pixel-ratio: 2) {
     .img_story{
         width: 25%;
         height: 430px;
@@ -802,20 +834,43 @@ footer ul{
         margin-top: 5px;
         color: #d9d9d9;
     }
+}
 
-    #arrow_1, #arrow_2, #arrow_3, #arrow_4{
-        margin-top: -5% !important;
-        margin-left: 3%;
-        height: 60px !important;
-        width: 70px !important;
-     }
+@media only screen and (width: 1366px) and (height: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .img_story{
+        margin-left: 5% !important;
+        width: 25% !important;
+        height: 430px !important;
+    }
 
-     #arrow_5{
-        margin-left: 3%;
-        margin-top: -10% !important;
-        height: 60px !important;
-        width: 70px !important;
-     }
+    #Carousel {
+        height: 1020px !important;
+    }
+
+
+    .img_story__label{
+        font-size: 16px !important;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: #d9d9d9;
+    }
+    
+    .img_story__label__2{
+        font-size: 14px !important;
+        margin-left: 20px;
+        margin-top: 5px;
+        color: #d9d9d9;
+    }
+
+    #Carousel_2{
+        height: 300px !important;
+    }
+
+    .quotes{
+        margin-top: 10%;
+        width: 100% !important;
+        font-size: 32px !important;
+    }
 }
 
 /* Adjust for big screen ( 3200 x 1800) */
@@ -834,7 +889,7 @@ footer ul{
     }  
     
     #section-1__header-2{
-        font-size: 44px;
+        font-size: 40px;
         text-align: center; 
         color: whitesmoke;
     }
@@ -848,44 +903,28 @@ footer ul{
     }
 
     #Carousel{
-        height: 1400px;
+        height: 1200px;
         width: 100%;
     }
 
+    .arrow{
+        width: 110px !important;
+        height: 105px !important;
+    }
+
     .img_story{
-        height: 600px;
-        width: 500px;
+        margin-left: 6%;
+        height: 500px;
+        width: 400px;
     }
 
     .img_story__label{
-        font-size: 38px;
+        font-size: 30px;
     }
-
-    
+ 
     .img_story__label__2{
-        font-size: 25px;
+        font-size: 20px;
     }
-
-    #arrow_1, #arrow_2, #arrow_4{
-        margin-top: -10% !important;
-        margin-left: -5%;
-        height: 160px !important;
-        width: 170px !important;
-     }
-
-    #arrow_3{
-        margin-top: -13% !important;
-        margin-left: -5%;
-        height: 160px !important;
-        width: 170px !important;
-    }
-
-    #arrow_5{
-        margin-left: -5%;
-        margin-top: -13% !important;
-        height: 160px !important;
-        width: 170px !important;
-     }
 
     .carousel-inner > .item{
         margin: auto;
@@ -920,12 +959,12 @@ footer ul{
         font-size: 48px;
         margin-left: 5%;
         color:whitesmoke;
-        margin-top: 10%;
+        margin-top: -5%;
     }
     
     .clients{ 
         position: relative;
-        margin-top: -5%;  
+        margin-top: 0%;  
     }
     
     .social-media{

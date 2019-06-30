@@ -1,6 +1,14 @@
+body{
+  height: 100%;
+}
+
 .font{
   font-family: 'Roboto', sans-serif;
   font-family: 'Titillium Web', sans-serif;
+}
+
+.center{
+  text-align: center;
 }
 
 .navbar{
@@ -15,6 +23,15 @@
   color: #58F86F !important;
 }
 
+.navbar.change{
+  background-color: rgba(255, 255, 255, 0.164);
+  transition: all ease .5s;
+}
+
+.navbar.change:hover{
+ background-color: #000;
+}
+
 #logo_brand{
   margin-top: -10px;
   margin-left: 10px; 
@@ -22,64 +39,17 @@
   width: 40px;
 }
 
-#section-1__header{
-  position: relative;
-  font-size: 36px;
+h1{
   text-align: center;
-  color:whitesmoke;
-  padding-top:5%;
-  margin-top: 30px;
-}
-
-#hr_1{
-  text-align: center; 
-  width: 26%; 
-  color:gray;
-}
-
-#section-1__header-2{
-  margin-top: 30px;
-  position: relative;
-  font-size: 32px;
-  text-align: center;
-  color:whitesmoke;
-}
-
-#schema_1{
-  margin: auto 30%;
-  width: 40%;
-  height: 50%;
-  cursor: pointer;
-}
-
-#section-2__header{
-  margin-top: 30px;
-  margin-bottom: 20px;
-  position: relative;
-  font-size: 32px;
-  text-align: center;
-  color:whitesmoke;
-}
-
-#schema_2{
-  margin: auto 25%;
-  width: 50%;
-  height: 100%;
-  cursor: pointer;
-}
-
-#section-2__header-text{
-  margin: 5% auto;
-  font-size: 22px;
-  text-align: center;
-  color:whitesmoke;
-  width: 60%;
+  padding-top: 20%;
+  padding-bottom: 18%;
+  color: white !important;
 }
 
 footer ul{
   position: relative;
   margin-top:5%;
-  width: 90%;
+  width: 100%;
   height: 30%;
   text-align: center;
   list-style-type: none;
@@ -87,16 +57,12 @@ footer ul{
   color: #f5f5f5 ;
 }
 
-#footer_rights{
-  display: inline-block;
-}
-
 .social-media{
   display: inline-block;
   width: 36px;
   height: 36px;
   font-size:23px;
-  margin: 10px; 
+  margin: 0% 0% 0% 0.5%; 
   border: 2px solid #23527c;
   border-radius: 50%;
 }
@@ -105,6 +71,37 @@ footer ul{
   color: black;
   background: white;
   border: 2px solid black;
+}
+
+#footer_rights{
+  display: inline-block;
+  font-size: 20px;
+}
+
+#black_hole{   
+  position: relative;
+  height: 100%;
+  width: 75%;
+  margin-left: 20%;
+  z-index:1;
+ -webkit-animation: rotation 20s infinite linear;
+}
+
+#spaceman{
+  position:  relative;
+  height: 220px;
+  margin-top: -35%;
+  margin-left: 55%;
+  z-index:2;
+}
+
+@-webkit-keyframes rotation {
+  from {
+       -webkit-transform: rotate(0deg);
+  }
+  to {
+       -webkit-transform: rotate(359deg);
+  }
 }
 
 /* Background */
@@ -148,56 +145,3 @@ z-index:1;
 animation:move-twink-back 200s linear infinite;
 }
 
-@media only screen and (max-width: 480px) {
-  #footer_rights{
-    display: none;
-  }
-
-  #section-1__header{
-    font-size: 18px;
-  }
-
-  #section-2__header, #section-1__header-2{
-    font-size: 16px;
-  }
-
-  #section-2__header-text{
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-height: 375px) {
-  #footer_rights{
-    display: none;
-  }
-
-  #section-1__header{
-    font-size: 18px;
-  }
-
-  #section-2__header, #section-1__header-2{
-    font-size: 16px;
-  }
-
-  #section-2__header-text{
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-height: 412px) {
-  #footer_rights{
-    display: none;
-  }
-
-  #section-1__header{
-    font-size: 18px;
-  }
-
-  #section-2__header, #section-1__header-2{
-    font-size: 16px;
-  }
-
-  #section-2__header-text{
-    font-size: 14px;
-  }
-}
