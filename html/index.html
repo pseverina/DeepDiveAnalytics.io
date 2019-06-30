@@ -35,7 +35,7 @@
 
   </head>
   <body>
-    <div class="stars font">
+    <div class="container-fluid stars font">
         <div class="twinkling">
         <!-- Menu bar-->
         <header id="header">
@@ -75,11 +75,11 @@
         <img src="../img/icons_img/icon_arrow_down.png" alt="arrow_down" id="arrow_down">
 
         <!--  Second Section -->
-        <div style="text-align: center;">
+        <div class="center">
             <div id="section-2__head"> We drive business advantage by delivering <br> 
                 industry leading analytical capabilities</div>
             <div class="row">
-                <div class="col-xs-3" id="section-2__pic_1"> 
+                <div class="col-sm-3" id="section-2__pic_1"> 
                     <a href="predictive_analytics.html" style="text-decoration: none;">
                         <img src="../img/icons_img/icon_machinelearning.png" alt="img_icon1" 
                             class="section2__img_logo" style="padding-top: 10%;">
@@ -93,7 +93,7 @@
                         </h5>
                     </a>
                 </div>
-                <div class="col-xs-3" id="section-2__pic_2">
+                <div class="col-sm-3" id="section-2__pic_2">
                     <img src="../img/icons_img/icon_mathmodeling.png" alt="img_icon2"
                     class="section2__img_logo" style="padding-top: 21.5%;">
                     <h2 class="section-2__head-3"> Prespriptive <br> Analytics </h2>
@@ -101,84 +101,76 @@
                     <h5 class="section-2__text_1">
                         Optimization Mathematical Modeling<br>
                         Stochastic Optimization <br>
-                        Simulation <br>
-                        Simulation <br>
                     </h5>
                 </div>
-                <div class="col-xs-3" id="section-2__pic_3">
+                <div class="col-sm-3" id="section-2__pic_3">
                     <img src="../img/icons_img/icon_nlp.png" alt="img_icon3" 
                     class="section2__img_logo" style="padding-top: 7%;">
                     <h2 class="section-2__head-3"> End-to-End<br> Solutions </h2>
                     <h3 class="section-2__head-4"> Custom Solution Deployment</h3>
-                    <h5 class="section-2__text_1">
-                        Simulation <br>
-                        Simulation <br>
-                    </h5>
                 </div>
             </div>
-        </div>
-            
+        </div>    
         <!--  Third Section -->
         <h1 id="section-3__head"> Our work </h1>
         <!-- Carousel -->
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="img_story"> 
-                    <a data-fancybox="gallery" target="_blank" href="../img/services_img/capital_ investment.jpg">
+                    <a target="_blank" href="../img/services_img/capital_ investment.jpg" data-fancybox="gallery">
                         <img src="../img/services_img_2/capital_investment_thumbnail.jpg" alt="cap_invest"/>
-                        <h4 class="img_story__label"> Decision Support Tool <br>  for Capital Investment</h4>
-                        <h6 class="img_story__label__2"> Technique: Optimization Modeling</h6>
-                        <h6 class="img_story__label__2"> Client: Confidential</h6>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_1"/>
+                        <h4 class="img_story__label"> Decision Support Tool for Capital Investment</h4>
+                        <h5 class="img_story__label__2"> Technique: Optimization Modeling</h5>
+                        <h5 class="img_story__label__2"> Client: Confidential</h5>
+                        <img src="../img/icons_img/arrow_green.png" alt="arrow"  class="arrow"/>
                     </a>
                 </div>
             </div>
             <div class="item">
                 <div class="img_story">
-                    <a data-fancybox="gallery" target="_blank" href="../img/services_img/Inventory_Optimization.jpg">
+                    <a target="_blank" href="../img/services_img/Inventory_Optimization.jpg" data-fancybox="gallery">
                         <img src="../img/services_img_2/inventory_thumbnail.jpg" alt="inventory"/>
                         <h4 class="img_story__label"> Inventory Optimization <br> Support Tool </h4>
-                        <h6 class="img_story__label__2"> Technique: NLP  <br> Optimization Modeling </h6>
-                        <h6 class="img_story__label__2"> Client: Confidential</h6>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_2"/>
+                        <h5 class="img_story__label__2"> Technique: NLP Optimization Modeling </h5>
+                        <h5 class="img_story__label__2"> Client: Confidential</h5>
+                        <img src="../img/icons_img/arrow_green.png" alt="arrow" class="arrow"/>
                     </a>
                 </div>
             </div>
             <div class="item">
                 <div class="img_story">
-                    <a data-fancybox="gallery" target="_blank" href="../img/services_img/Materials_Harmonization.jpg">
+                    <a target="_blank" href="../img/services_img/Materials_Harmonization.jpg" data-fancybox="gallery">
                         <img src="../img/services_img_2/common_parts_thumbnail.png" alt="common_parts"/>
                         <h4 class="img_story__label"> Material Hamonization <br> Matching Tool </h4>
-                        <h6 class="img_story__label__2"> Technique: Machine <br> Learning/Natural Language </h6>
-                        <h6 class="img_story__label__2"> Client: Confidential</h6>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_3"/>
+                        <h5 class="img_story__label__2"> Technique: Machine <br> Learning/Natural Language </h5>
+                        <h5 class="img_story__label__2"> Client: Confidential</h5>
+                        <img src="../img/icons_img/arrow_green.png" alt="arrow" class="arrow"/>
                     </a>
                 </div>
             </div>
             <div class="item">
-                <div class="img_story">
-                    <a data-fancybox="gallery" target="_blank" href="../img/services_img/Production_Scheduling.jpg">
+                <div class="img_story" id="first_item_in_slide_2">
+                    <a target="_blank" href="../img/services_img/Production_Scheduling.jpg" data-fancybox="gallery">
                         <img src="../img/services_img_2/production_sched_thumbnail.jpg" alt="production_sched"/> 
                         <h4 class="img_story__label"> Production Scheduling <br> Planning Tool </h4>
-                        <h6 class="img_story__label__2"> Technique: Optimization Modeling </h6>
-                        <h6 class="img_story__label__2"> Client: Confidential</h6>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_4"/>
+                        <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                        <h5 class="img_story__label__2"> Client: Confidential</h5>
+                        <img src="../img/icons_img/arrow_green.png" alt="arrow" class="arrow"/>
                     </a>
                 </div>
             </div>
             <div class="item">
                 <div class="img_story">
-                    <a data-fancybox="gallery" target="_blank" href="../img/services_img/Radiology_Scheduling.jpg"> 
+                    <a target="_blank" href="../img/services_img/Radiology_Scheduling.jpg" data-fancybox="gallery"> 
                         <img src="../img/services_img_2/rads_scheduling_thumbnail.jpg" alt="rads_scheduling"/> 
                         <h4 class="img_story__label"> Radiology Residency Scheduling Solution </h4>
-                        <h6 class="img_story__label__2"> Technique: Optimization Modeling </h6>
-                        <h6 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h6>
-                        <img src="../img/icons_img/arrow_green.png" alt="arrow" id="arrow_5"/>
+                        <h5 class="img_story__label__2"> Technique: Optimization Modeling </h5>
+                        <h5 class="img_story__label__2"> Client: UM Hospital / Jackson <br> Memorial Hospital </h5>
+                        <img src="../img/icons_img/arrow_green.png" alt="arrow" class="arrow"/>
                     </a>
                 </div>
             </div>
         </div>
-      
         <!-- Fourth Section -->
         <div id="transparent_back">
             <div class="row">
@@ -222,20 +214,20 @@
                 <span> QUICKER </span>
                 <span> TRUSTED </span>
             </div> 
-            <span id="section-5_decisions"> DECISIONS </span>
+            <span id="section-5__decisions"> DECISIONS </span>
         </div> 
         <div class="row">
             <div class="col-sm-6">
                 <p class="section-5__text">
-                    We combine business knowledge with 
+                    We&nbsp;combine business knowledge with 
                     advanced analytics, building custom 
-                    analytical solutions based on your
+                    analytical solutions based on&nbsp;your
                     unique business needs.
                 </p>
                 <p class="section-5__text">
-                    We have a proven track record of 
-                    delivering business value. Let's Deep
-                    Dive into the "black hole" of your data. 
+                    We&nbsp;have a&nbsp;proven track record of 
+                    delivering business value. Let&rsquo;s Deep
+                    Dive into the &laquo;black hole&raquo; of&nbsp;your data. 
                 </p>
             </div>
             <div class="col-sm-6">
@@ -244,7 +236,7 @@
             </div>
         </div>
         <!--  Footer -->
-        <footer id="list__foooter">
+        <footer>
             <ul>
                 <li id="footer_rights">  © Deep Dive Analytics. 2019 All Rights Reserved</li>
                 <li class="social-media"><a href="https://www.facebook.com/deepdiveanalytics.io"><i class="fa fa-facebook"></i></a> </li>

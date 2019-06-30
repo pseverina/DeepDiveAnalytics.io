@@ -1,4 +1,30 @@
 $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        margin: 20,
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            300:{
+                items:2,
+                nav:true
+            },
+            750:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:false
+            }
+        },
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+    });
+    
     var quotes = $(".quotes");
     var quoteIndex = -1;
 
@@ -11,33 +37,6 @@ $(document).ready(function(){
     }
 
     showNextQuote();
-
-    $(".owl-carousel").owlCarousel({
-        margin: -50,
-        loop:true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:2,
-                nav:true
-            },
-            600:{
-                items:3,
-                nav:false
-            },
-            1000:{
-                items:4,
-                nav:true,
-                loop:false
-            }, 
-            1290:{
-                items:5,
-                nav:true,
-                loop:false
-            }
-        },
-        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
-    });
 }); 
 
 $(window).scroll(function(){

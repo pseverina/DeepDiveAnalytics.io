@@ -7,6 +7,10 @@ body{
     font-family: 'Titillium Web', sans-serif;
 }
 
+.center{
+    text-align: center;
+}
+
 .navbar{
     margin : 0 !important; 
 }
@@ -209,33 +213,10 @@ body{
     margin-bottom: 0%;
 }
 
-#arrow_1{
-    margin-top: 0% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_2{
-    margin-top: -5% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_3{
-    margin-top: -7% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_4{
-    margin-top: 0% !important;
-    width: 65px !important;
-    height: 70px !important;
-}
-
-#arrow_5{
-    margin-top: -5% !important;
-    width: 65px !important;
+.arrow{
+    position: absolute;
+    z-index: -2;
+    width: 75px !important;
     height: 70px !important;
 }
 
@@ -304,11 +285,11 @@ body{
     font-size: 25px;
 }
 
-#section-5_decisions{
+#section-5__decisions{
     margin-left: 17%;
 }
 
-#list__foooter ul{
+footer ul{
     position: relative;
     margin-top:5%;
     width: 100%;
@@ -474,20 +455,30 @@ body{
 /* Adjust to Cellphone Size*/
 
 @media only screen and (max-width: 480px) {
+    #head_name{
+        padding-top:10%;
+        margin-left: 10%;
+        width: 75%;
+    }
+
     #section-2__head{
         font-size: 15px;
     }
     
     #dive_in{
+        margin-left: 45%;
         font-size:10px;
+    }
+
+    #arrow_down{
+        margin-left: 46%;
     }
 
     #section-2__pic_1,  #section-2__pic_2,  #section-2__pic_3{
         position: relative;
         margin-top: 5%;
-        margin-left: 10%;
-        width: 20%;
-        height: 60%;
+        margin-left: 27%;
+        width: 45%;
     }
 
     .section2__img_logo{
@@ -499,21 +490,20 @@ body{
 
     .section-2__head-3{
         margin-top: 5%;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .section-2__head-4{
         margin-top: 5%;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .section-2__text_1{
-        font-size: 9px;
+        font-size: 12px;
     }
 
-    .item{
-        margin-left: 8%;
-        margin-top: 5%;
+    .owl-item{
+        margin: 0%;
     }
 
     #section-3__head{
@@ -522,88 +512,53 @@ body{
         font-size: 13px;
     } 
 
-    .img_story{
-        margin-top: 2%;
-        margin-left: 3%;
-        width: 90px;
-        height: 180px;
+    #section-3__head__2{
+        font-size: 13px;
     }
-
-    .img_story__label{
-        font-size: 9px;
-        margin-left: 5%;
-        margin-bottom: 0%;
-    }
-
-    .img_story__label__2{
-        font-size: 6px;
-        margin-top: 3%;
-        margin-left: 5%;
-        margin-bottom: 0%;
-    }
-
-    #arrow_1, #arrow_4 {
-        margin-left: -5%;
-        margin-top: -10% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
-
-     #arrow_2{
-        margin-left: -5%;
-        margin-top: -10% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
-
-     #arrow_3{
-        margin-left: -5%;
-        margin-top: -10% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
-
-     #arrow_5{
-        margin-left: -5%;
-        margin-top: -8% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
-
 
     #section-4_head, #item_added_quote{
         font-size: 12px;
     }
 
+    #transparent_back{
+        height: 250px;
+    }
+
+    .clients{
+        margin-left: 7%;
+    }
+
     .quotes{
-        margin-left: 15%;
+        margin-left: 5%;
+        margin-top: 5%;
         font-size: 8px;
+    }
+
+    .item:first-child {
+        margin-left: 0%;
     }
 
     #section-5__head{
         margin-top: 15%;
-        font-size: 13px;
+        font-size: 20px;
         margin-bottom: 5%;
     }
 
-    #section-5_decisions{
-        margin-left: 22%;
+    #section-5__decisions{
+        margin-left: 33%;
     }
 
-    #section-5__text-1{
-        margin-left: 6%;
-        margin-top: 5%;
-        font-size: 9px;
+    .section-5__text{
+        margin-top: 0;
+        font-size: 16px;
     }
 
-    #section-5__text-2{
-        margin-top: 5%;
-        margin-left: 6%;
-        font-size: 9px;
+    ul{
+        width: 100%;
     }
 
     #footer_rights{
-        font-size: 8px;
+        display: none;
     }
 
     .social-media{
@@ -615,15 +570,8 @@ body{
 
 }
 
-/* Adjust for Pixel 2*/
-@media only screen and (min-width : 411px) and (max-width: 823px){
-    .img_story{
-        margin-left: 5%;
-    }
-}
-
 /* Adjust for IPhone 5/SE*/
-@media only screen and (width: 320px) and (height: 568px) and (-webkit-min-device-pixel-ratio: 2){
+@media only screen and (min-width: 320px) and (min-height: 568px) and (-webkit-min-device-pixel-ratio: 2){
     #head_name{
         margin-top: 25%;
     }
@@ -633,10 +581,15 @@ body{
         width: 15%;
     }
 
+    #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
+        width: 27%;
+        margin-left: 5%;
+        float: left;
+    }
+    
     .img_story{
-        width: 80px;
+        width: 120px;
         height: 180px;
-        margin-left: 3%;
     }
    
     .img_story__label{
@@ -653,43 +606,136 @@ body{
         margin-top: 5%;
     }
 
+    .arrow{
+        width: 50px !important;
+        height: 45px !important;
+        margin-left: -5%;
+    }
+
     #section-5__head{
         font-size: 10px;
         margin-left: 10%;
         width: 80%;
     }
 
-    #arrow_1, #arrow_4 {
-        margin-left: -5%;
-        margin-top: -5% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
+    #spaceman{
+        height: 180px;
+    }
 
-     #arrow_2{
-        margin-left: -5%;
-        height: 30px !important;
-        width: 40px !important;
-     }
+}
+/* Adjust for IPhone 5/SE landscape*/
+@media only screen and (width: 568px) and (height: 320px){
+    #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
+        float: left;
+        margin-left: 7%;
+        width: 25%;
+    }
 
-     #arrow_3{
-        margin-left: -5%;
-        margin-top: -5% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
+    .section-2__head-3{
+        font-size: 22px;
+    }
 
-     #arrow_5{
-        margin-left: -5%;
-        margin-top: -8% !important;
-        height: 30px !important;
-        width: 40px !important;
-     }
+    .section-2__head-4{
+        font-size: 20px;
+    }
+    
+    .clients{
+        margin-left: 5%;
+    }
 
+    .quotes{
+        margin-top: 5%;
+    }
+
+    #section-5__head{
+        font-size: 20px;
+    }
+
+    .section-5__text{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #footer_rights{
+        font-size: 16px;
+    }
+}
+/* Adjust to iPhone 6, 7 and 8 landscape*/
+@media only screen 
+  and (width: 667px) and (height: 375px){
+    #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
+        float: left;
+        margin-left: 7%;
+        width: 25%;
+    }
+
+    .owl-item{
+        margin-left: 30px;
+        height: 200px;
+    }
+
+    #section-3__head__2{
+        padding-top: 5%;
+    }
+
+    .clients{
+        margin-left: 5%;
+    }
+
+    .quotes{
+        margin-top: 3%;
+    }
+
+    #section-5__decisions{
+        margin-left: 20%;
+    }
+
+    #section-5__head{
+        font-size: 26px;
+    }
+
+    .section-5__text{
+        font-size: 22px;
+        margin-top:10px;
+    }
+  }
+
+
+/* Adjust to iPhone 6+, 7+ and 8+ */
+@media only screen 
+  and (min-width: 414px) and (max-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+    #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
+        width: 27%;
+        margin-left: 5%;
+        float: left;
+    }
+    
+    #section-3__head__2{
+        padding-top: 5%;
+    }
+    
+    .clients{
+        margin-left: 7%;
+    }
+
+    #section-5__head{
+        margin: 5% auto;
+        font-size: 22px;
+    }
+
+    #section-5__decisions{
+        margin-left: 15%;
+    }
+
+    .section-5__text{
+        margin-top: 10px;
+    }
 }
 
 /* Adjust to Ipad Size*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width : 768px) 
+and (max-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
     #section-2__pic_1, #section-2__pic_2, #section-2__pic_3{
         width: 27%;
         margin-left: 5%;
@@ -723,6 +769,10 @@ body{
         font-size: 25px;
     }
 
+    #transparent_back{
+        height: 300px;
+    }
+
     .quotes{
         margin-left: 5%;
         font-size: 15px;
@@ -731,7 +781,8 @@ body{
 }
 
 /* Adjust to Ipad ProSize*/
-@media only screen and (min-width: 834px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
+@media only screen and (min-width: 834px) and (max-width: 1364px) 
+and (-webkit-min-device-pixel-ratio: 2){
     .section2__img_logo{
         width: 50%;
         height: 40%;
@@ -739,7 +790,6 @@ body{
 
     .img_story{
         margin-left: 8% !important;
-        width: 21%;
     }
 
 }
@@ -752,7 +802,7 @@ body{
     
     #arrow_down{
         color: white;
-        margin: 0.5% 48% 5% 51%;
+        margin: 0.5% 46% 5% 52.5%;
         height: 30px;
     }
 
@@ -779,52 +829,25 @@ body{
         font-size: 50px;
     }
 
+    #transparent_back:after{
+        height: 500px;
+    }
+
     .img_story{
-        width: 22%;
-        height: 640px;
+        width: 300px;
+        height: 540px;
     }
 
     .img_story__label{
-        font-size: 40px;
+        font-size: 26px;
     }
     
     .img_story__label__2{
-        font-size: 36px;
+        font-size: 24px;
     }
 
-    #arrow_1{
-        margin-top: -5% !important;
-        margin-left: -5%;
-        width: 165px !important;
-        height: 170px !important;
-    }
-    
-    #arrow_2{
-        margin-top: -10% !important;
-        width: 165px !important;
-        height: 170px !important;
-        margin-left: -5%;
-    }
-    
-    #arrow_3{
-        margin-top: -10% !important;
-        width: 165px !important;
-        height: 170px !important;
-        margin-left: -5%;
-    }
-    
-    #arrow_4{
-        margin-top: -5% !important;
-        width: 165px !important;
-        height: 170px !important;
-        margin-left: -5%;
-    }
-    
-    #arrow_5{
-        margin-top: -10% !important;
-        width: 165px !important;
-        height: 170px !important;
-        margin-left: -5%;
+    .arrow{
+        margin-left:2%;
     }
 
     #section-3__head__2{
@@ -843,8 +866,8 @@ body{
     }
 
     #section-5__head{
-        margin-top: 3%;
-        font-size: 65px;
+        margin-top: 10%;
+        font-size: 45px;
     }
 
     #section-5__text-1, #section-5__text-2{

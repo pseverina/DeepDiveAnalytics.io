@@ -25,13 +25,12 @@ $(document).ready(function(){
         },
         navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
     });
-  });
+});
 
-  $(window).scroll(function(){
-    if ($(document).scrollTop() > 50){
-        $('.navbar').addClass('change');
-    }
-    else{
-        $('.navbar').removeClass('change');
-    }
+$(window).scroll(function(){
+  if ($(document).scrollTop() > 50){
+      $('.navbar').addClass('change');
+  }else{
+      $('.navbar').removeClass('change');
+  }
 });
