@@ -24,9 +24,7 @@ $(document).ready(function(){
       $('.SCH').hide();
     }
   });
-});
 
-$(document).ready(function(){
   $("#all").click(function(){
     $("#Carousel").height(880);
   });
@@ -51,13 +49,20 @@ $(document).ready(function(){
     $("#Carousel").height(480);
   });
 
+  $("#Technique_dropdown.dropdown-menu li a").click(function(){
+    $("#Technique.btn:first-child").html($(this).text()+' <span class="caret"></span>');
+  });
+
+  $("#Industry_dropdown.dropdown-menu li a").click(function(){
+    $("#Industry.btn:first-child").html($(this).text()+' <span class="caret"></span>');
+  });
 });
 
 $(window).scroll(function(){
   if ($(document).scrollTop() > 50){
-      $('.navbar').addClass('change');
+    $('.navbar').addClass('change');
   }
   else{
-      $('.navbar').removeClass('change');
+    $('.navbar').removeClass('change');
   }
 });
