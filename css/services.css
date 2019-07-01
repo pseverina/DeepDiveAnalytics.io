@@ -873,7 +873,7 @@ footer ul{
     }
 }
 
-/* Adjust for big screen ( 3200 x 1800) */
+/* Adjust for big screen */
 @media only screen and (min-width: 1300px) and (min-height: 850px) and (max-width: 3200px) and (max-height: 1800px) {
     #section-1__header{
         padding-top:5%;
@@ -977,3 +977,108 @@ footer ul{
         font-size: 30px;
     }
 }
+
+/* Adjust for big screen ( 3200 x 1800) */
+@media only screen and (width: 3200px) and (height: 1800px){
+    #section-1__header{
+        padding-top:5%;
+        font-size: 62px;
+        text-align: center; 
+        color: whitesmoke;
+    }
+
+    #hr_1{
+        text-align: center; 
+        width: 14%; 
+        color:gray;
+    }  
+    
+    #section-1__header-2{
+        font-size: 40px;
+        text-align: center; 
+        color: whitesmoke;
+    }
+
+    #Technique, #Industry{
+        font-size: 34px !important; 
+    }
+
+    #Technique_dropdown, #Industry_dropdown{
+        font-size: 28px !important; 
+    }
+
+    #Carousel{
+        height: 1200px;
+        width: 100%;
+    }
+
+    .arrow{
+        width: 110px !important;
+        height: 105px !important;
+    }
+
+    .img_story{
+        margin-left: 6%;
+        height: 480px;
+        width: 380px;
+    }
+
+    .img_story__label{
+        font-size: 30px;
+    }
+ 
+    .img_story__label__2{
+        font-size: 20px;
+    }
+
+    .carousel-inner > .item{
+        margin: auto;
+        width: 80%;
+    }
+
+    #section-3_head {
+        font-size: 62px;
+    }
+
+    #Carousel_2{
+        height: 600px;
+    }
+    
+    .quotes{
+        margin: auto;
+        margin-top: 2%;
+        font-style: italic;
+        color:whitesmoke;
+        font-size: 50px;
+        width: 65%;
+    }
+    
+    #phrases{
+        margin-top: -7%;
+        margin-left: 7%;
+        text-align: center;
+    }
+    
+    #section-4{
+        position: relative;
+        font-size: 48px;
+        margin-left: 5%;
+        color:whitesmoke;
+        margin-top: -5%;
+    }
+    
+    .clients{ 
+        position: relative;
+        margin-top: 0%;  
+    }
+    
+    .social-media{
+        width: 46px;
+        height: 46px;
+        font-size:43px;
+    }
+    
+    #footer_rights{
+        font-size: 30px;
+    }
+} 
